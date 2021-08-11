@@ -1,0 +1,14 @@
+.test {
+  height: 350px;
+  width: 350px;
+  border: 1px solid goldenrod;
+  background: #191765;
+  color: aliceblue;
+}
+.background {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #EDECFF;
+  filter:blur(50px);
+}
