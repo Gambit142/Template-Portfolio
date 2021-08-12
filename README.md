@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Mobile Version
 
-> One paragraph statement about the project.
+> This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
 ![screenshot](./app_screenshot.png)
 
