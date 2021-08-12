@@ -1,9 +1,132 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-decoration: none;
 }
 body {
   background-color: #191765;
+  width: 377px;
+  min-height: 100vh;
+  border: 1px solid white;
+  margin: 0 auto;
 }
-#image {
-  border: 2px solid red
+.app-bar {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  margin: 44px 32px 0 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.icon-menu {
+  width: 50px;
+  height: 50px;
+}
+.ellipse {
+  width: 160px;
+  height: 160px;
+  margin-top: -40px;
+}
+.author-info header {
+  display: flex;
+  flex-direction: column;
+  margin: -130px 24px 0 24px;
+  align-items: center;
+}
+.author-info h1 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  letter-spacing: 0.37px;
+  color: #7D73FC;
+  text-align: center;
+}
+.author-info h2 {
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #EDECFF;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: -35px;
+}
+.author-info p {
+  font-size: 19.5px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: center;
+  color: #C8C8D4;
+}
+.line {
+  width: 327px;
+  height: 0;
+  border-bottom: 1px solid #646369;
+  margin: 10 24px 0 24px;
+}
+.middle-section {
+  display: flex;
+}
+.links {
+  width: 303px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ align-content: space-between;
+ margin: 20px 36px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 19.11px 0 0 -39px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  align-items: center;
+}
+.ellipse-1 {
+  width: 68px;
+  height: 68px;
+  margin: 6px 19px 0 0;
+}
+.languages h1, .frameworks h1, .skills h1 {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-weight: normal;
+  color: #9490FF;
+}
+.line-2 {
+  margin-top: -10px;
+}
+.social-media {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 48px auto 0 auto;
+}
+.vector {
+  margin: 38.06px 149px 0 149px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 72px;
+}
+.vector img {
+  width: 18px;
+  height: 21.3px;
+}
+.word {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: normal;
+  color: #A2A3AE;
 }
