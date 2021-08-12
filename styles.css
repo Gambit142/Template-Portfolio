@@ -40,7 +40,7 @@ body {
 
 .author-info {
   flex-direction: column;
-  align-content:space-between;
+  align-content: space-between;
 }
 
 .author h1 {
@@ -48,7 +48,7 @@ body {
   line-height: 78px;
   font-weight: bold;
   letter-spacing: 0.37px;
-  color: #7D73FC;
+  color: #7d73fc;
   text-align: center;
 }
 
@@ -60,19 +60,18 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #EDECFF;
+  color: #edecff;
   font-style: normal;
   font-weight: 500;
   margin-top: -45px;
 }
-
 
 .description p {
   font-size: 19px;
   line-height: 26px;
   font-weight: normal;
   text-align: center;
-  color: #C8C8D4;
+  color: #c8c8d4;
 }
 
 .line {
@@ -89,12 +88,12 @@ body {
   margin: 20px 36px;
 }
 
-.links > div > ul {
-  width: 100px;
-}
-
 ul {
   list-style: none;
+}
+
+.links > div > ul {
+  width: 100px;
 }
 
 li {
@@ -110,12 +109,12 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   font-weight: normal;
-  color: #9490FF;
+  color: #9490ff;
 }
 
 .social-media {
   justify-content: space-between;
-  padding: 48px auto 0 auto;
+  padding: 48px 0 0 0;
   margin-top: 24px;
 }
 
@@ -128,7 +127,6 @@ li {
 }
 
 .vector {
-  margin: 38.06px 149px 0 149px;
   justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -144,7 +142,7 @@ li {
   margin-left: 10px;
   font-size: 20px;
   line-height: 32px;
-  color: #A2A3AE;
+  color: #a2a3ae;
   font-weight: 500;
 }
 
