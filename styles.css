@@ -264,8 +264,8 @@ li {
 }
 
 button:hover {
-  background-color: rgb(151, 145, 35);
-  border: 2px solid rgb(252, 242, 57);
+  background-color: #979123;
+  border: 2px solid #fcf239;
 }
 
 .style {
