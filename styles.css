@@ -20,7 +20,7 @@ body {
   padding: 0 28px 10px 22px;
 }
 
-.name h1 {
+.name a {
   font-size: 18px;
   font-weight: 500;
   line-height: 16px;
@@ -34,13 +34,13 @@ body {
 
 .headline {
   flex-direction: column;
-  margin-top: -20px;
-  padding: 0 28px;
+  margin: 0 24px;
 }
 
 .author-info {
   flex-direction: column;
-  align-content: space-between;
+  align-items: space-between;
+  margin-top: 47px;
 }
 
 .author h1 {
@@ -53,7 +53,10 @@ body {
 }
 
 .title {
-  margin-top: 12px;
+  height: 87px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
 }
 
 .title h2 {
@@ -61,14 +64,16 @@ body {
   line-height: 44px;
   text-align: center;
   color: #edecff;
-  font-style: normal;
   font-weight: 500;
   margin-top: -45px;
 }
 
+.description {
+  height: 170px;
+}
 .description p {
-  font-size: 19px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: normal;
   text-align: center;
   color: #c8c8d4;
@@ -77,14 +82,14 @@ body {
 .line {
   height: 0;
   border-bottom: 1px solid #646369;
-  margin: 15px -7px 0 -7px;
+  margin-top: 33px;
 }
 
 .links {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
-  margin: 20px 36px;
+  margin: 32px 24px 0 24px;
 }
 
 ul {
@@ -112,36 +117,36 @@ li {
 }
 
 .social-media {
-  padding: 48px 0 0 0;
-  margin-top: 24px;
+  margin: 48px 87.5px 0 87.5px;
+  height: 40px;
 }
 
 .icons {
-  width: 70%;
   align-items: center;
   align-content: center;
-  margin: auto;
-  margin-top: -30px;
+  width: 200px;
+  justify-content: center;
 }
 
 .vector {
-  align-items: center;
-  align-content: center;
-  margin: auto;
-  margin-left: 108px;
+  height: 40px;
+  width: 77px;
+  margin: 30px 149px 0 149px;
+  padding: 4px 0;
+  margin-left: 132px;
 }
 
 .vector img {
   width: 18px;
-  height: 21.3px;
+  height: 24px;
 }
 
 .word {
-  margin-left: 10px;
   font-size: 20px;
   line-height: 32px;
   color: #a2a3ae;
   font-weight: 500;
+  text-align: center;
 }
 
 .display-flex {
@@ -153,26 +158,24 @@ li {
 }
 
 .about-work {
-padding: 0 28px;
-margin-top: 10px;
-}
-
-.about-work h1{
-font-size: 40px;
-line-height: 50px;
-font-weight: 500;
-color: #9490ff;
-font-style: normal;
-margin-left: -10px;
+  height: 104px;
+  margin: 79.85px 24px 0 24px;
 }
 
 .line2 {
-  margin: 5px 20px 0 20px;
+  margin: 33px 24px 0 24px;
+}
+.about-work h1{
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 500;
+  color: #9490ff;
+  font-style: normal;
 }
 
 .background-div {
   background-image: url("Images/Work-Ellipse.png");
-  background-position: 35% -35%;
+  background-position: 104% -35%;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -184,7 +187,7 @@ margin-left: -10px;
 .work-container {
   display: grid;
   grid-template-rows: 1fr;
-  margin: 48px 24px 0 34px;
+  margin: 48px 24px 0 24px;
 }
 
 .cards-container {
@@ -203,7 +206,6 @@ margin-left: -10px;
 }
 
 .cards-header h2 {
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -215,7 +217,6 @@ margin-left: -10px;
 
 .card-info p {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
@@ -231,7 +232,6 @@ margin-left: -10px;
 
 .lang {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -258,8 +258,16 @@ margin-left: -10px;
   height: 48px;
   background-color: #7d73fc;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
+}
+
+button:hover {
+  background-color: rgb(151, 145, 35);
+  border: 2px solid rgb(252, 242, 57);
+}
+
+.style {
+  font-style: normal;
 }
