@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #191765;
+  background-image: url('Images/Ellipses.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  align-items: center;
+  text-align: center;
+  padding: 0 28px 10px 22px;
+}
+
+.name h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.icon-menu {
+  width: 50px;
+  height: 50px;
+}
+
+.headline {
+  flex-direction: column;
+  margin-top: -20px;
+  padding: 0 28px;
+}
+
+.author-info {
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.author h1 {
+  font-size: 48px;
+  line-height: 78px;
+  font-weight: bold;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  text-align: center;
+}
+
+.title {
+  margin-top: 12px;
+}
+
+.title h2 {
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: -45px;
+}
+
+.description p {
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  color: #c8c8d4;
+}
+
+.line {
+  height: 0;
+  border-bottom: 1px solid #646369;
+  margin: 15px -7px 0 -7px;
+}
+
+.links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 20px 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+.links > div > ul {
+  width: 100px;
+}
+
+li {
+  margin: 19.11px 0 0 -39px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  align-items: center;
+}
+
+.element {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-weight: normal;
+  color: #9490ff;
+}
+
+.social-media {
+  padding: 48px 0 0 0;
+  margin-top: 24px;
+}
+
+.icons {
+  width: 70%;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.vector {
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.vector img {
+  width: 18px;
+  height: 21.3px;
+}
+
+.word {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #a2a3ae;
+  font-weight: 500;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: space-between;
+}

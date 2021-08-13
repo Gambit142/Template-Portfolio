@@ -1,59 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Mobile Version
 
-> One paragraph statement about the project.
+![Screenshot](/Images/Screenshot.png)
 
-![screenshot](./app_screenshot.png)
+> This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
-Additional description about the project and its features.
+
+## Live Demo Link
+[Live Demo Link](https://gambit142.github.io/Mobile-Version/)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- Visual Studio Code Editor
+- Git & Github
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To get a local copy up and running:
+1. Clone this repository or download the Zip folder:
+**``git clone https://github.com/Gambit142/Mobile-Version.git``**
+2. Navigate to the location of the folder in your machine:
+**``you@your-Pc-name:~$ cd <folder>``**
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Gambit142)
+-LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168)
 
 ## 🤝 Contributing
 
@@ -67,9 +43,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Figma for providing us with their template [Figma Template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A2346)
+- Hat tip to Microverse for well curated curriculum. Microverse [Home Page](https://bit.ly/MicroverseTN
+)
+- My Coding Partners 🏹
+- My Morning Session Partners ⚡
 
 ## 📝 License
 
