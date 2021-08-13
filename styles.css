@@ -259,7 +259,7 @@ li {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
