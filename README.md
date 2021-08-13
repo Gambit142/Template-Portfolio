@@ -14,6 +14,7 @@
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/Gambit142)
+-LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168)
 
 ## Acknowledgments
 
