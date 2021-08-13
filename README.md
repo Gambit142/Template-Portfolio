@@ -2,7 +2,7 @@
 
 # Mobile Version
 
-![Screenshot](/Images/Screenshot2.png)
+![Screenshot](/Images/Screenshot3.png)
 
 > This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
