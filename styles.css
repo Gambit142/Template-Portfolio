@@ -39,7 +39,7 @@ body {
 
 .author-info {
   flex-direction: column;
-  align-items: space-between;
+  align-items: center;
   margin-top: 47px;
 }
 
@@ -71,6 +71,7 @@ body {
 .description {
   height: 170px;
 }
+
 .description p {
   font-size: 20px;
   line-height: 28px;
@@ -165,7 +166,8 @@ li {
 .line2 {
   margin: 33px 24px 0 24px;
 }
-.about-work h1{
+
+.about-work h1 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 500;
@@ -257,7 +259,7 @@ li {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
