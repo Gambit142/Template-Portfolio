@@ -2,7 +2,7 @@
 
 # Mobile Version
 
-![Screenshot](/Images/Screenshot.png)
+![Screenshot]<img src="Images/Screenshot3.png" width="200" height="1000">
 
 > This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
