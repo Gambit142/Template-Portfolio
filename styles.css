@@ -276,3 +276,47 @@ button:hover {
 .style {
   font-style: normal;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 120px 24px 40px 24px;
+}
+
+.contact-us h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #9390ff;
+}
+
+.contact-form p {
+  margin-top: 24px;
+  color: #f5f5ff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.social-media-handles {
+  flex-direction: column;
+}
+
+.footer-image-div {
+  width: 200px;
+  align-self: center;
+}
+
+.email-div {
+  margin-bottom: 40px;
+}
+.email-div p {
+ text-align: center;
+}
