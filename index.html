@@ -185,15 +185,14 @@
       <h1 class="style">Contact US</h1>
     </header>
     <p class="style">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <form class="form-outlay">
-      <fieldset class="form-div">
-        <ul>
-          <li><input type="text" name="user_name" placeholder="Text input" required maxlength="30"></li>
-          <li><input type="email" name="user_email" placeholder="jeremy@gmail.com" required ></li>
-          <li><textarea required maxlength="500">Enter text here</textarea></li>
-          <li><button type="submit">See Project</button></li>
-        </ul>
-        
+    <form class="form-outlay" method="POST" action="https://formspree.io/f/mvodvrgn">
+      <fieldset class="contact-form-fieldset">
+        <ul class="contact-form-ul">
+          <li><input class="input-text style" type="text" name="user_name" placeholder="Text input" required maxlength="30"></li>
+          <li><input class="input-email style" type="email" name="user_email" placeholder="jeremy@gmail.com" required ></li>
+          <li><textarea class="style" required maxlength="500">Enter text here</textarea></li>
+          <li><button class="see-project submit-button" type="submit">See Project</button></li>
+        </ul>        
       </fieldset>
     </form>
   </section>
