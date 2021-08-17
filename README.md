@@ -2,7 +2,7 @@
 
 # Mobile Version
 
-![Screenshot]<img src="Images/Screenshot3.png" width="200" height="1000">
+![Screenshot]<img src="Images/Screenshot4.png" width="300" height="2400">
 
 > This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
@@ -26,10 +26,14 @@ To get a local copy up and running:
 
 ## Authors
 
-👤 **Author1**
+👤 **Francis Nzenwa Ugorji**
 
 - GitHub: [@githubhandle](https://github.com/Gambit142)
--LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168)
+-LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168) 
+
+👤 **Iyadi Cyril**
+
+- GitHub: [@githubhandle](https://github.com/see-why))
 
 ## 🤝 Contributing
 

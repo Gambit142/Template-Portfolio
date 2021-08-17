@@ -18,13 +18,14 @@ input {
   padding: 15px 16px;
 }
 
-input,textarea {
+input,
+textarea {
   width: 100%;
 }
 
 textarea {
   height: 148px;
-  font-family: 'Inter', sans-serif;  
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -291,6 +292,11 @@ button:hover {
   border: 2px solid #fcf239;
 }
 
+button:active {
+  background-color: #3f3d3d;
+  border: 2px solid #0c0c0c;
+}
+
 .style {
   font-style: normal;
 }
@@ -335,8 +341,9 @@ form {
 .email-div {
   margin-bottom: 40px;
 }
+
 .email-div p {
- text-align: center;
+  text-align: center;
 }
 
 .contact-form-fieldset {
