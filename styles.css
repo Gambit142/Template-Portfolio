@@ -132,7 +132,9 @@ li {
   align-items: center;
 }
 
-.element {
+#element-languages,
+#element-frameworks,
+#element-skills {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -143,6 +145,10 @@ li {
 .social-media {
   margin: 48px 87.5px 0 87.5px;
   height: 40px;
+}
+
+.social-media-accounts {
+  display: none;
 }
 
 .icons {
@@ -376,7 +382,7 @@ form {
   margin: 0 35%;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -386,7 +392,7 @@ form {
   }
 
   body {
-    background: #191765 url(Images/Background-Image1.png) 0.31rem 14.81rem no-repeat;
+    background: #191765 url(Images/Background-Image1.png) 0.31rem 9.81rem no-repeat;
     background-size: contain;
     margin: 0 8.875rem;
   }
@@ -424,4 +430,104 @@ form {
     font-size: 0.938rem;
     line-height: 1.25rem;
   }
+  .headline {
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  .author h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 5.625rem;
+    line-height: 6.563rem;
+    text-align: center;
+    color: #9391ff;
+  }
+
+  .title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
+    text-align: center;
+    color: #dfe1e6;
+  }
+
+  .description {
+    width: 27.938rem;
+  }
+
+  .description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #b3bac5;
+  }
+
+  .line {
+    width: 28rem;
+    margin: 0 auto;
+  }
+
+  .links {
+    width: 28rem;
+    margin: 0 auto;
+  }
+
+  .links > div > ul {
+    width: auto;
+  }
+
+  .languages > ul > li,
+  .frameworks > ul > li,
+  .skills > ul > li {
+    font-size: 0.887rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+    align-items: center;
+  }
+
+  #element-languages,
+  #element-frameworks,
+  #element-skills {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.813rem;
+    color: #9390ff;
+  }
+
+  #line2 {
+    width: 28rem;
+    margin: 2.063rem auto 0 auto;
+  }
+
+  .social-media,
+  .vector {
+    display: none;
+  }
+
+  .social-media-accounts {
+    width: 88.49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 6rem auto 0 auto;
+  }
+
+  .vector-div {
+    display: flex;
+    justify-content: space-between;
+    width: 4.813rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 12.5rem;
+  }
 }
+
