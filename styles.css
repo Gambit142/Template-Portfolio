@@ -33,6 +33,10 @@ textarea {
   color: #81818c;
 }
 
+.nav-section {
+  display: none;
+}
+
 .nav-bar {
   align-items: center;
   text-align: center;
@@ -370,4 +374,54 @@ form {
 
 .submit-button {
   margin: 0 35%;
+}
+
+@media only screen and (min-width: 992px) {
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  body {
+    background: #191765 url(Images/Background-Image1.png) 0.31rem 14.81rem no-repeat;
+    background-size: contain;
+    margin: 0 8.875rem;
+  }
+
+  header {
+    display: none;
+  }
+
+  .nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.625rem 0;
+  }
+
+  .nav-section ul {
+    display: flex;
+    justify-content: space-between;
+    width: 15.06rem;
+    height: 2.5rem;
+  }
+
+  .name a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+
+  .nav-menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+  }
 }
