@@ -736,3 +736,21 @@ form {
   }
   */
 }
+
+.name:hover {
+  animation: bounce 2s linear;
+}
+@keyframes bounce {
+  20%,50%,80%,to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-1.875rem);
+  }
+  70% {
+    transform: translateY(-0.938rem)
+  }
+  90% {
+    transform: translateY(-0.25rem)
+  }
+}
