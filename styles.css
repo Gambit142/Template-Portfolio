@@ -6,6 +6,13 @@
   margin: 0;
 }
 
+:root {
+  --inter-font: 'Inter', sans-serif;
+  --style: normal;
+  --flex: flex;
+  --space-between: space-between;
+}
+
 body {
   background-color: #191765;
   background-image: url('Images/Ellipses.png');
@@ -25,7 +32,7 @@ textarea {
 
 textarea {
   height: 148px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--inter-font);
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -204,8 +211,7 @@ li {
   font-size: 40px;
   line-height: 52px;
   font-weight: 500;
-  color: #9490ff;
-  font-style: normal;
+  color: #9490ff
 }
 
 .background-div {
@@ -255,7 +261,7 @@ li {
 }
 
 .card-info p {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--inter-font);
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
@@ -272,7 +278,7 @@ li {
 }
 
 .lang {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--inter-font);
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -283,7 +289,6 @@ li {
 }
 
 .bootstrap {
-  width: 100px;
   padding-left: 10px;
 }
 
@@ -299,7 +304,6 @@ li {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -381,7 +385,7 @@ form {
 
 .input-text,
 .input-email {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--inter-font);
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -407,6 +411,7 @@ form {
     color: #fff;
     text-decoration: none;
     margin: 0;
+    font-style: var(--style);
   }
 
   body {
@@ -419,31 +424,27 @@ form {
   }
 
   .nav-section {
-    display: flex;
-    justify-content: space-between;
+    display: var(--flex);
+    justify-content: var(--space-between);
     align-items: baseline;
     padding: 1.625rem 0;
     margin: 0 8.875rem;
   }
 
   .nav-section ul {
-    display: flex;
-    justify-content: space-between;
+    display: var(--flex);
+    justify-content: var(--space-between);
     width: 15.06rem;
     height: 2.5rem;
   }
 
   .name a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.25rem;
   }
 
   .nav-menu {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 0.938rem;
     line-height: 1.25rem;
@@ -453,7 +454,6 @@ form {
   }
 
   .author h1 {
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 4.625rem;
     line-height: 6.163rem;
@@ -462,7 +462,6 @@ form {
   }
 
   .title h2 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 2.938rem;
@@ -475,7 +474,6 @@ form {
   }
 
   .description p {
-    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -509,8 +507,6 @@ form {
   #element-languages,
   #element-frameworks,
   #element-skills {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 1.813rem;
@@ -529,27 +525,25 @@ form {
 
   .social-media-accounts {
     width: 67.49%;
-    display: flex;
-    justify-content: space-between;
+    display: var(--flex);
+    justify-content: var(--space-between);
     align-items: baseline;
     margin: 6rem auto 0 auto;
   }
 
   .vector-div {
-    display: flex;
-    justify-content: space-between;
+    display: var(--flex);
+    justify-content: var(--space-between);
     width: 4.813rem;
   }
 
   .icons {
-    display: flex;
-    justify-content: space-between;
+    display: var(--flex);
+    justify-content: var(--space-between);
     width: 12.5rem;
   }
 
   .word {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -566,12 +560,10 @@ form {
   }
 
   .work-header {
-    display: flex;
+    display: var(flex);
   }
 
   .work-header h1 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 4rem;
     line-height: 7.125rem;
@@ -600,7 +592,7 @@ form {
 
   .cards-container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: var(--space-between);
     height: 28rem;
     width: 100%;
   }
@@ -626,8 +618,6 @@ form {
     line-height: 2.25rem;
     font-weight: bold;
     color: #fff;
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
   }
 
   .card-info {
@@ -675,8 +665,6 @@ form {
   .contact-us .lets-chat {
     display: block;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 1.5rem;
@@ -685,10 +673,6 @@ form {
 
   form {
     margin-top: 5.5rem;
-  }
-
-  .submit-button{
-    margin: 0 42.5%;
   }
 
   .contact-form-ul .see-project {
@@ -700,19 +684,17 @@ form {
     width: 160px;
     height: 48px;
     background-color: #9390ff;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
     border: none;
-    margin-top: 5.56rem;
+    margin: 5.56rem auto 0 auto;
   }
 
   .input-text::placeholder,
   .input-email::placeholder,
   .send-button::placeholder,
   .enter-text::placeholder {
-    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     line-height: 20px;
     color: #6d6c70;
