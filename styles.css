@@ -658,11 +658,11 @@ form {
     margin-top: 7.125rem;
   }
   
-  .contact-us h1 {
+  .hide {
     display: none;
   }
   
-  .contact-us .lets-chat {
+  .lets-chat {
     display: block;
     text-align: center;
     font-weight: bold;
