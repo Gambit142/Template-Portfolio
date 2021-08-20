@@ -415,9 +415,7 @@ form {
   }
 
   body {
-    background: 
-      url(Images/Background-Image1.png) 0.31rem 9.81rem no-repeat,
-      url("Images/Background-Image2.png") right 0  bottom 50% no-repeat;
+    background: url(Images/Background-Image1.png) 0.31rem 9.81rem no-repeat, url("Images/Background-Image2.png") right 0  bottom 50% no-repeat;
     background-size: contain;
     background-color: #191765;
     margin: 0 auto; /* To center the content */
