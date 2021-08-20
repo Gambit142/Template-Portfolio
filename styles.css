@@ -604,7 +604,6 @@ form {
 
   .details-div {
     width: 38.75%;
-    height: 100%;
     margin-top: 2.69rem;
   }
 
@@ -649,92 +648,10 @@ form {
   }
 
   .contact-form {
-    border: 1px solid red;
     margin: 7.125rem auto 0 auto;
-    /* margin: 0 auto; */
     width: 42.75rem;
     height: 54.188rem;
   }
-  /*
-  .cards-grid-container {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  .cards-div {
-    height: 28rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid red;
-  }
-
-  .placeholder {
-    width: 54.1%;
-    background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
-  }
-
-  .card-info-section {
-    width: 41.9%;
-    display: block;
-  }
-
-  .cards-header {
-    display: block;
-    margin-top: 1.588rem;
-    height: 0;
-  }
-
-  .cards-header h2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.45rem;
-    line-height: 3.25rem;
-    color: #fff;
-  }
-
-  .card-info {
-    margin-top: 1.5rem;
-  }
-
-  .card-info p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.85rem;
-    line-height: 1.5rem;
-    color: #dfe1e6;
-  }
-
-  .languages-div {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-  }
-
-  .languages-div li {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.938rem;
-    line-height: 1.25rem;
-    color: #dfe1e6;
-  }
-
-  .btn-div {
-    margin-top: 1.5rem;
-  }
-
-  .see-project {
-  background-color: #9390ff;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.938rem;
-  line-height: 1.5rem;
-  }
-  */
 }
 
 .name:hover {
@@ -753,4 +670,33 @@ form {
   90% {
     transform: translateY(-0.25rem)
   }
+}
+
+a#mailbox-icon > img {
+  transition: transform 1s;
+}
+
+a#mailbox-icon:hover > img {
+  transform: rotate(360deg);
+}
+
+.details-div {
+  transition-property: background-color;
+  transition-duration: 3s;
+  overflow: hidden;
+}
+
+.details-div:hover {
+  background-color: #4e58a1;
+}
+
+.increase {
+  transition: all 1s ease-out;
+}
+
+.increase:hover,
+.increase:focus {
+  /*background-color: 	#f7cac9;*/
+  color: #f1ee2a;
+  font-size: 20px;
 }
