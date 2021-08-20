@@ -641,7 +641,7 @@ form {
   .see-project {
     border: none;
   }
-  
+
   .reverse-div {
     flex-direction: row-reverse;
   }
@@ -657,11 +657,11 @@ form {
     display: block;
     margin-top: 7.125rem;
   }
-  
+
   .hide {
     display: none;
   }
-  
+
   .lets-chat {
     display: block;
     text-align: center;
