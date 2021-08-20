@@ -310,9 +310,8 @@ li {
 }
 
 button:hover {
-  border: 2px solid #2415f8;
   background: #7d73fc;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 20px 40px rgba(125, 115, 252, 0.48);
   cursor: pointer;
 }
 
@@ -600,7 +599,6 @@ form {
 
   .details-div {
     width: 38.75%;
-    height: 100%;
     margin-top: 2.69rem;
   }
 
@@ -717,6 +715,14 @@ form {
     line-height: 1.75rem;
     color: #ebebff;
   }
+
+  a#mailbox-icon > img {
+    transition: transform 1s;
+  }
+  
+  a#mailbox-icon:hover > img {
+    transform: rotate(360deg);
+  }
 }
 
 .name:hover {
@@ -742,4 +748,24 @@ form {
   90% {
     transform: translateY(-0.25rem);
   }
+}
+
+.details-div {
+  transition-property: background-color;
+  transition-duration: 3s;
+  overflow: hidden;
+}
+
+.details-div:hover {
+  background-color: #4e58a1;
+}
+
+.increase {
+  transition: all 1s ease-out;
+}
+
+.increase:hover,
+.increase:focus {
+  color: #f1ee2a;
+  font-size: 20px;
 }
