@@ -313,6 +313,7 @@ button:hover {
   border: 2px solid #2415f8;
   background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  cursor: pointer;
 }
 
 button:active {
@@ -414,8 +415,12 @@ form {
   }
 
   body {
-    background: #191765 url(Images/Background-Image1.png) 0.31rem 9.81rem no-repeat;
+    background: url(Images/Background-Image1.png) 0.31rem 9.81rem no-repeat,
+    url("Images/Background-Image2.png") right 0  bottom 50% no-repeat;
     background-size: contain;
+    background-color: #191765;
+    margin: 0 auto; /* To center the content*/
+    max-width: 1440px; /* To fix the size for large screens*/
   }
 
   header {
@@ -576,14 +581,6 @@ form {
     display: block;
     border: 1px solid #646369;
     margin: 2.063rem 8.875rem 0 8.875rem;
-  }
-
-  .background-div {
-    background: none;
-    display: grid;
-    background-image: url("Images/Background-Image2.png");
-    background-size: cover;
-    background-position: 0 2%;
   }
 
   .work-container {
