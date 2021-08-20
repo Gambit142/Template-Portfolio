@@ -725,8 +725,9 @@ form {
   }
 }
 
-.name:hover {
+.name {
   animation: bounce 2s linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
