@@ -335,6 +335,10 @@ button:active {
   color: #9390ff;
 }
 
+.lets-chat {
+  display: none;
+}
+
 .contact-form p {
   margin-top: 24px;
   color: #f5f5ff;
@@ -392,6 +396,10 @@ form {
   margin: 0 35%;
 }
 
+.send-button {
+  display: none;
+}
+
 @media only screen and (min-width: 992px) {
   * {
     box-sizing: border-box;
@@ -447,8 +455,8 @@ form {
   .author h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 5.625rem;
-    line-height: 6.563rem;
+    font-size: 4.625rem;
+    line-height: 6.163rem;
     text-align: center;
     color: #9391ff;
   }
@@ -649,92 +657,84 @@ form {
   }
 
   .contact-form {
-    border: 1px solid red;
     margin: 7.125rem auto 0 auto;
-    /* margin: 0 auto; */
-    width: 42.75rem;
+    width: 59.17%;
     height: 54.188rem;
   }
-  /*
-  .cards-grid-container {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-  }
 
-  .cards-div {
-    height: 28rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid red;
-  }
-
-  .placeholder {
-    width: 54.1%;
-    background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
-  }
-
-  .card-info-section {
-    width: 41.9%;
+  .contact-us {
+    height: 3.5rem;
     display: block;
+    margin-top: 7.125rem;
   }
 
-  .cards-header {
+  .contact-us h1 {
+    display: none;
+  }
+
+  .contact-us .lets-chat {
     display: block;
-    margin-top: 1.588rem;
-    height: 0;
-  }
-
-  .cards-header h2 {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.45rem;
-    line-height: 3.25rem;
-    color: #fff;
-  }
-
-  .card-info {
-    margin-top: 1.5rem;
-  }
-
-  .card-info p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.85rem;
+    font-size: 2.5rem;
     line-height: 1.5rem;
-    color: #dfe1e6;
+    color: #9390ff;
   }
 
-  .languages-div {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5rem;
+  form {
+    margin-top: 5.5rem;
   }
 
-  .languages-div li {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+  .submit-button{
+    margin: 0 42.5%;
+  }
+
+  .contact-form-ul .see-project {
+    display: none;
+  }
+
+  .send-button {
+    display: block;
+    width: 160px;
+    height: 48px;
+    background-color: #9390ff;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 0.938rem;
-    line-height: 1.25rem;
-    color: #dfe1e6;
+    font-size: 15px;
+    line-height: 24px;
+    border: none;
+    margin-top: 5.56rem;
   }
 
-  .btn-div {
-    margin-top: 1.5rem;
+  .input-text::placeholder,
+  .input-email::placeholder,
+  .send-button::placeholder,
+  .enter-text::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #6d6c70;
   }
 
-  .see-project {
-  background-color: #9390ff;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.938rem;
-  line-height: 1.5rem;
+  .social-media-handles {
+    flex-direction: row;
+    margin-top: 6.63rem;
+    justify-content: center;
+    border-top: 1px solid #3a3837;
   }
-  */
+
+  .email-div {
+    padding-top: 3.313rem;
+    margin-left: 0.938rem;
+  }
+
+  .email-div p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #ebebff;
+  }
 }
 
 .name:hover {
