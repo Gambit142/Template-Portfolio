@@ -661,13 +661,13 @@ form {
   .contact-us h1 {
     display: none;
   }
-
+  
   .contact-us .lets-chat {
     display: block;
     text-align: center;
     font-weight: bold;
     font-size: 2.5rem;
-    line-height: 1.5rem;
+    line-height: 1.45rem;
     color: #9390ff;
   }
 
