@@ -1,8 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Mobile Version
-
-[Screenshot] <img src="Images/Screenshot4.png" width="300" height="2400">
+ <img src="Images/Screenshot5.png" width="1000" height="1000">
 
 > This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
@@ -52,6 +51,7 @@ Give a ⭐️ if you like this project!
 )
 - My Coding Partners 🏹
 - My Morning Session Partners ⚡
+- DarkCode for their YouTube tutorials on animation. You can check out their [Instagram Account](https://www.instagram.com/darkcodeonline)
 
 ## 📝 License
 
