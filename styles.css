@@ -211,7 +211,7 @@ li {
   font-size: 40px;
   line-height: 52px;
   font-weight: 500;
-  color: #9490ff
+  color: #9490ff;
 }
 
 .background-div {
@@ -310,10 +310,9 @@ li {
 }
 
 button:hover {
-  background-color: #7d73fc;
   border: 2px solid #2415f8;
   background: #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 button:active {
@@ -449,6 +448,7 @@ form {
     font-size: 0.938rem;
     line-height: 1.25rem;
   }
+
   .headline {
     margin: 0;
   }
@@ -609,8 +609,8 @@ form {
   }
 
   .cards-header {
-      height: 5rem;
-      align-items: center;
+    height: 5rem;
+    align-items: center;
   }
 
   .cards-header h2 {
@@ -626,7 +626,7 @@ form {
   }
 
   .card-info p {
-    font-size: 0.80rem;
+    font-size: 0.8rem;
     line-height: 1.53rem;
     font-weight: normal;
     color: #dfe1e6;
@@ -722,17 +722,24 @@ form {
 .name:hover {
   animation: bounce 2s linear;
 }
+
 @keyframes bounce {
-  20%,50%,80%,to {
+  20%,
+  50%,
+  80%,
+  to {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-1.875rem);
   }
+
   70% {
-    transform: translateY(-0.938rem)
+    transform: translateY(-0.938rem);
   }
+
   90% {
-    transform: translateY(-0.25rem)
+    transform: translateY(-0.25rem);
   }
 }
