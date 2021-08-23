@@ -7,7 +7,7 @@
 
 
 ## Live Demo Link
-[Live Demo Link](https://gambit142.github.io/Mobile-Version/)
+[Live Demo Link](https://gambit142.github.io/Template-Portfolio/)
 
 ## Built With
 
