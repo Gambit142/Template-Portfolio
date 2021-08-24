@@ -126,7 +126,7 @@ textarea {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
-  padding: 32px 24px 33px 20px;
+  padding: 32px 20px 33px 20px;
   border-bottom: 1px solid #646369;
   border-top: 1px solid #646369;
 }
@@ -140,7 +140,6 @@ ul {
 }
 
 .links > div > ul > li {
-  width: 100px;
   margin-top: 14px;
 }
 
@@ -538,7 +537,7 @@ textarea::placeholder{
   }
 
   .links > div > ul {
-    width: auto;
+    width: unset;
   }
 
   .languages > ul > li,
