@@ -21,6 +21,14 @@ body {
   min-height: 100vh;
 }
 
+.display-flex {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
 input {
   padding: 15px 16px;
 }
@@ -152,7 +160,21 @@ li {
   margin: 48px 0 0 0;
   height: 40px;
   width: 100%;
+  justify-content: center;
 }
+
+.social-icons {
+  padding: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-icons .icon-frame {
+  width: 20px;
+  height: 20px;
+}
+
 
 .social-media-accounts {
   display: none;
@@ -188,13 +210,15 @@ li {
   text-align: center;
 }
 
-.display-flex {
+/*Moved these classes up almost at the top
+because it is overriding other properties*/
+/* .display-flex {
   display: flex;
 }
 
 .justify-content {
   justify-content: space-between;
-}
+} */
 
 .about-work {
   margin: 79.85px 24px 0 24px;
@@ -277,10 +301,9 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-grow: 1;
-  padding: 10px;
+  padding: 10px 0;
   margin-top: 24px;
   list-style: none;
-  margin-left: 24px;
 }
 
 .lang {
@@ -367,7 +390,6 @@ form {
 }
 
 .footer-image-div {
-  width: 200px;
   align-self: center;
 }
 
@@ -377,6 +399,9 @@ form {
 
 .email-div p {
   text-align: center;
+  margin-top: 9px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .contact-form-fieldset {
