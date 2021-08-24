@@ -4,6 +4,7 @@
   color: #fff;
   text-decoration: none;
   margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -125,7 +126,7 @@ textarea {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
-  padding: 32px 24px 33px 24px;
+  padding: 32px 24px 33px 20px;
   border-bottom: 1px solid #646369;
   border-top: 1px solid #646369;
 }
@@ -136,6 +137,11 @@ ul {
 
 .links > div > ul {
   width: 100px;
+}
+
+.links > div > ul > li {
+  width: 100px;
+  margin-top: 14px;
 }
 
 li {
@@ -402,6 +408,7 @@ form {
   margin-top: 9px;
   font-size: 20px;
   line-height: 28px;
+  overflow-wrap: break-word;
 }
 
 .contact-form-fieldset {
@@ -412,6 +419,7 @@ form {
 .contact-form-ul {
   width: 100%;
   flex-direction: column;
+  gap: 24px;
 }
 
 .input-text,
