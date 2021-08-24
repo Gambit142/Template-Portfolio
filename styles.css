@@ -150,8 +150,9 @@ li {
 }
 
 .social-media {
-  margin: 48px 87.5px 0 87.5px;
+  margin: 48px 0 0 0;
   height: 40px;
+  width: 100%;
 }
 
 .social-media-accounts {
@@ -171,6 +172,7 @@ li {
   margin: 30px 149px 0 149px;
   padding: 4px 0;
   margin-left: 132px;
+  align-self: center;
 }
 
 .vector img {
