@@ -46,7 +46,7 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
-  color: #81818c;
+  color: #2f2f31;
 }
 
 .nav-section {
@@ -327,7 +327,7 @@ li {
 
 .see-project {
   padding: 10px 12px;
-  background-color: #7d73fc;
+  background-color: #3d2ff7;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -723,7 +723,7 @@ textarea::placeholder{
     display: block;
     width: 160px;
     height: 48px;
-    background-color: #9390ff;
+    background-color: #3d2ff7;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
