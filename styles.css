@@ -139,16 +139,15 @@ ul {
   width: 100px;
 }
 
-.links > div > ul > li {
-  margin-top: 14px;
-}
-
 li {
-  /* margin: 19.11px 0 0 -39px; */
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
   align-items: center;
+}
+
+.links > div > ul > li {
+  margin-top: 14px;
 }
 
 #element-languages,
@@ -179,7 +178,6 @@ li {
   width: 20px;
   height: 20px;
 }
-
 
 .social-media-accounts {
   display: none;
@@ -264,6 +262,9 @@ li {
 
 .details-div {
   flex-direction: column;
+  transition-property: background-color;
+  transition-duration: 3s;
+  overflow: hidden;
 }
 
 .cards-header {
@@ -310,6 +311,7 @@ li {
   text-align: center;
   padding: 10px 20px 10px 12px;
   border-right: 2px solid #555;
+
   /* width: 25%; */
 }
 
@@ -421,10 +423,11 @@ form {
 }
 
 input::placeholder,
-textarea::placeholder{
+textarea::placeholder {
   color: #81818c;
   overflow-wrap: break-word;
 }
+
 /* .input-email::placeholder,
 .input-text::placeholder,
 .enter-text::placeholder {
@@ -761,7 +764,7 @@ textarea::placeholder{
   a#mailbox-icon > img {
     transition: transform 1s;
   }
-  
+
   a#mailbox-icon:hover > img {
     transform: rotate(360deg);
   }
@@ -791,12 +794,6 @@ textarea::placeholder{
   90% {
     transform: translateY(-0.25rem);
   }
-}
-
-.details-div {
-  transition-property: background-color;
-  transition-duration: 3s;
-  overflow: hidden;
 }
 
 .details-div:hover {
