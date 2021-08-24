@@ -216,16 +216,6 @@ li {
   text-align: center;
 }
 
-/*Moved these classes up almost at the top
-because it is overriding other properties*/
-/* .display-flex {
-  display: flex;
-}
-
-.justify-content {
-  justify-content: space-between;
-} */
-
 .about-work {
   margin: 79.85px 24px 0 24px;
   border-bottom: 1px solid #646369;
@@ -430,6 +420,18 @@ form {
   line-height: 24px;
   color: #81818c;
 }
+
+input::placeholder,
+textarea::placeholder{
+  color: #81818c;
+  overflow-wrap: break-word;
+}
+/* .input-email::placeholder,
+.input-text::placeholder,
+.enter-text::placeholder {
+  color: #81818c;
+  overflow-wrap: break-word;
+} */
 
 .input-email::placeholder {
   color: #191765;

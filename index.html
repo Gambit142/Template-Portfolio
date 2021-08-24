@@ -130,7 +130,7 @@
         </li>
         <li class="icon-frame">
           <a href="#"><img src="Images/Icon-Angelist.png" alt="An Angelist logo Icon"></a>
-        </li class="icon-frame">
+        </li>
         <li class="icon-frame">
           <a href="#"><img src="Images/Icon-Twitter.png" alt="A Twitter logo Icon"></a>
         </li>
@@ -265,18 +265,29 @@
     <p class="style">If you have an application you are interested in developing, a feature that you need built or a
       project that needs coding. I’d love to help with it </p>
     <form class="form-outlay" method="POST" action="https://formspree.io/f/mvodvrgn">
-      <fieldset class="contact-form-fieldset">
+      <div class="contact-form-fieldset">
         <ul class="contact-form-ul display-flex">
-          <li><input class="input-text style" type="text" name="user_name" placeholder="Francis Ugorji" required
-              maxlength="30"></li>
-          <li><input class="input-email style" type="email" name="user_email" placeholder="francis@gmail.com" required>
+          <li>
+            <label for="user_name"></label>
+            <input id="user_name" class="input-text style" type="text" name="user_name" placeholder="Francis Ugorji"
+              required maxlength="30">
           </li>
-          <li><textarea class=" enter-text style" required maxlength="500"
-              name="user_message">Enter text here</textarea></li>
+          <li>
+            <label for="user_email"></label>
+            <input id="user_email" class="input-email style" type="email" name="user_email"
+              placeholder="francis@gmail.com" required>
+
+          </li>
+          <li>
+            <label for="user_message"></label>
+            <textarea id="user_message" placeholder="Enter text here" class="enter-text style" required maxlength="500"
+              name="user_message">Enter text here
+          </textarea>
+          </li>
           <li><button class="see-project submit-button" type="submit">See Project</button></li>
           <li><button class="send-button submit-button" type="submit">Send</button></li>
         </ul>
-      </fieldset>
+      </div>
     </form>
   </section>
   <footer class="social-media-handles display-flex">
