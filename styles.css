@@ -72,7 +72,6 @@ textarea {
   align-items: center;
   margin-top: 47px;
   padding-bottom: 33px;
-  border-bottom: 1px solid #646369;
 }
 
 .author h1 {
@@ -120,6 +119,7 @@ textarea {
   align-content: space-between;
   padding: 32px 24px 33px 24px;
   border-bottom: 1px solid #646369;
+  border-top: 1px solid #646369;
 }
 
 ul {
@@ -131,7 +131,7 @@ ul {
 }
 
 li {
-  margin: 19.11px 0 0 -39px;
+  /* margin: 19.11px 0 0 -39px; */
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
@@ -273,7 +273,10 @@ li {
 
 .languages-div {
   display: flex;
+  justify-items: flex-start;
   justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
   padding: 10px;
   margin-top: 24px;
   list-style: none;
@@ -287,13 +290,14 @@ li {
   line-height: 20px;
   color: #fff;
   text-align: center;
+  padding: 10px 20px 10px 12px;
   border-right: 2px solid #555;
-  width: 25%;
+  /* width: 25%; */
 }
 
-.bootstrap {
+/* .bootstrap {
   padding-left: 10px;
-}
+} */
 
 .ruby {
   border-right: none;
