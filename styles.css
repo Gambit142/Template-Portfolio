@@ -227,7 +227,7 @@ li {
   margin: 33px 24px 0 24px;
 }
 
-.about-work h1 {
+.about-work h2 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 500;
@@ -273,7 +273,7 @@ li {
   margin-top: 24px;
 }
 
-.cards-header h2 {
+.cards-header h3 {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -356,7 +356,7 @@ button:active {
   margin: 120px 24px 40px 24px;
 }
 
-.contact-us h1 {
+.contact-us h2 {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -611,7 +611,7 @@ textarea::placeholder {
     display: var(flex);
   }
 
-  .work-header h1 {
+  .work-header h2 {
     font-weight: bold;
     font-size: 4rem;
     line-height: 7.125rem;
@@ -652,7 +652,7 @@ textarea::placeholder {
     align-items: center;
   }
 
-  .cards-header h2 {
+  .cards-header h3 {
     font-size: 1.4rem;
     line-height: 2.25rem;
     font-weight: bold;
