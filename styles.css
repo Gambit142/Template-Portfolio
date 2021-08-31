@@ -59,7 +59,40 @@ textarea {
   padding: 0 28px 10px 22px;
 }
 
-
+#mobile-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.mobile-menu-hidden {
+  display: none;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.88rem;
+  background-image: url("Images/Background-Design.png");
+  background-size: cover;
+  background-color: #191765;
+}
+.menu-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.125rem;
+  margin-left: 1.5rem;
+}
+.closing-icon-item {
+  margin-left: auto;
+  margin-right: 2.4rem;
+}
+.nav-menu-link {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
 
 .name a {
   font-size: 18px;
