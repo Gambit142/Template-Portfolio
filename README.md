@@ -30,9 +30,22 @@ To get a local copy up and running:
 - GitHub: [@githubhandle](https://github.com/Gambit142)
 - LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168) 
 
+## Contributors
 👤 **Iyadi Cyril**
 
 - GitHub: [@githubhandle](https://github.com/see-why))
+
+👤 **Radmila Stojceva**
+
+- GitHub: [@githubhandle](https://github.com/M0rrighan))
+
+👤 **Ajise Toluwase**
+
+- GitHub: [@githubhandle](https://github.com/Whoistolu))
+
+👤 **Ugbordiegwu Chimaijem Sixtus Paul**
+
+- GitHub: [@githubhandle](https://github.com/Gentilitysp))
 
 ## 🤝 Contributing
 
