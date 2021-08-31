@@ -42,3 +42,20 @@ contactDiv.appendChild(anchorTag);
 mobileMenuDiv.appendChild(contactDiv);
 let menuButton = document.querySelector('#menu-button');
 
+function display () {
+    const targetedDiv = document.querySelector('.mobile-menu-hidden');
+    targetedDiv.classList.add('show');
+    menuButton.style.display = 'none';
+}
+menuButton.addEventListener('click',display);
+const closeButton = document.querySelector('#close-button');
+function closePop () {
+    const targetedDiv2 = document.querySelector('.mobile-menu-hidden');
+    targetedDiv2.classList.remove('show');
+    menuButton.style.display = 'block';
+}
+closeButton.addEventListener('click',closePop);
+const anchorTagLinks = document.querySelectorAll('.nav-menu-link');
+anchorTagLinks.forEach((link) => {
+    link.addEventListener('click', closePop);
+})
