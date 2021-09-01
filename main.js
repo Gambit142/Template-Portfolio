@@ -44,3 +44,17 @@ const cards = `<div class="pop-up-container display-flex" id="modal-content">
     </div>
   </div>`;
 
+  const workArea = document.getElementById('modal-container');
+    workArea.innerHTML = cards;
+  function displayModal() {
+    workArea.style.display = 'block';
+  }
+  const projectButtons = document.querySelectorAll('.see-project');
+  projectButtons.forEach((button) => {
+    button.addEventListener('click', displayModal);
+  });
+  const closingButton = document.getElementById('closing-button');
+  function closeModal() {
+    workArea.style.display = 'none';
+  }
+  closingButton.addEventListener('click', closeModal);
