@@ -351,13 +351,7 @@ li {
   text-align: center;
   padding: 10px 20px 10px 12px;
   border-right: 2px solid #555;
-
-  /* width: 25%; */
 }
-
-/* .bootstrap {
-  padding-left: 10px;
-} */
 
 .ruby {
   border-right: none;
@@ -389,6 +383,112 @@ button:active {
 .style {
   font-style: normal;
 }
+
+/* popup-styling */
+.container {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+  overflow-y: auto;
+  background-color: #191765;
+  opacity: 0.95;
+}
+
+.pop-up-container {
+  flex-direction: column;
+  border: 1px solid #fff;
+  padding: 0 1.5rem;
+}
+
+.title-container {
+  justify-content: space-between;
+  padding: 0.94rem 0;
+}
+
+.title-container h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+#closing-button {
+  width: 0.88rem;
+  height: 0.88rem;
+}
+
+.image-placeholder {
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.snapshot1 {
+  width: 100%;
+}
+
+.snapshot2 {
+  display: none;
+}
+
+.card-description {
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.card-badges {
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.badge {
+  padding: 0.88rem;
+  border-right: 1px solid#81818c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.94rem;
+  line-height: 1.25rem;
+}
+
+.html {
+  border-left: 1px solid#81818c;
+}
+
+.github {
+  display: none;
+}
+
+.links-div {
+  margin-top: 2.28rem;
+  flex-direction: column;
+  align-self: center;
+}
+
+.source-link,
+.live-link {
+  background-color: #7d73fc;
+  padding: 0.75rem 1rem 0.75rem 0.75rem;
+}
+
+.live-icon,
+.github-icon {
+  margin-left: 1rem;
+}
+
+.source-link {
+  margin-top: 1.5rem;
+}
+/* popup-styling */
 
 .contact-form {
   display: flex;
@@ -467,13 +567,6 @@ textarea::placeholder {
   color: #81818c;
   overflow-wrap: break-word;
 }
-
-/* .input-email::placeholder,
-.input-text::placeholder,
-.enter-text::placeholder {
-  color: #81818c;
-  overflow-wrap: break-word;
-} */
 
 .input-email::placeholder {
   color: #191765;
@@ -715,6 +808,7 @@ textarea::placeholder {
     margin: 1.5rem 0 0 0;
     justify-content: space-around;
     padding: 0;
+    flex-wrap: nowrap;
   }
 
   .bootstrap {

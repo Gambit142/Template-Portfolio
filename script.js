@@ -1,5 +1,4 @@
 const mobileMenuDiv = document.querySelector('#mobile-menu');
-
 mobileMenuDiv.className = 'mobile-menu-hidden';
 // Create closing icon and attach to div
 const closingIcondiv = document.createElement('div');
