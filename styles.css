@@ -402,6 +402,7 @@ button:active {
   flex-direction: column;
   border: 1px solid #fff;
   padding: 0 1.5rem;
+  display: none;
 }
 
 .title-container {
@@ -415,7 +416,7 @@ button:active {
   line-height: 1.75rem;
 }
 
-#closing-button {
+.closing-button {
   width: 0.88rem;
   height: 0.88rem;
 }
@@ -906,6 +907,10 @@ textarea::placeholder {
     margin-top: 7.125rem;
   }
 
+  .contact-form-fieldset {
+    text-align: center;
+  }
+
   .hide {
     display: none;
   }
@@ -964,6 +969,7 @@ textarea::placeholder {
     font-size: 1.25rem;
     line-height: 1.75rem;
     color: #ebebff;
+    margin: 0;
   }
 
   a#mailbox-icon > img {

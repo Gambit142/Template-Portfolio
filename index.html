@@ -14,7 +14,7 @@
 
     gtag('config', 'G-0JED4GM2T0');
   </script>
-  <link rel='stylesheet' type='text/css' href='styles.css'>
+  <link rel='stylesheet' type='text/css' href='form.css'>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -180,7 +180,7 @@
             <li class="ruby lang style">Ruby</li>
           </ul>
           <div class="btn-div">
-            <button type="button" class="see-project">See Project</button>
+            <button data-target = "#modal-1" type="button" class="see-project">See Project</button>
           </div>
         </div>
       </article>
@@ -204,7 +204,7 @@
             <li class="lang style ruby">Ruby</li>
           </ul>
           <div class="btn-div">
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" data-target = "#modal-2" class="see-project">See Project</button>
           </div>
         </div>
       </article>
@@ -228,7 +228,7 @@
             <li class="lang style ruby">Ruby</li>
           </ul>
           <div class="btn-div">
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" data-target = "#modal-3" class="see-project">See Project</button>
           </div>
         </div>
       </article>
@@ -252,7 +252,7 @@
             <li class="lang style ruby">Ruby</li>
           </ul>
           <div class="btn-div">
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" data-target = "#modal-4" class="see-project">See Project</button>
           </div>
         </div>
       </article>
@@ -271,7 +271,7 @@
     </div>
     <p class="style">If you have an application you are interested in developing, a feature that you need built or a
       project that needs coding. I’d love to help with it </p>
-    <form class="form-outlay" method="POST" action="https://formspree.io/f/mvodvrgn">
+    <form id="form" class="form-outlay" method="POST" action="https://formspree.io/f/mvodvrgn">
       <div class="contact-form-fieldset">
         <ul class="contact-form-ul display-flex">
           <li>
@@ -283,7 +283,6 @@
             <label for="user_email"></label>
             <input id="user_email" class="input-email style" type="email" name="user_email"
               placeholder="francis@gmail.com" required>
-
           </li>
           <li>
             <label for="user_message"></label>
@@ -294,6 +293,7 @@
           <li><button class="see-project submit-button" type="submit">See Project</button></li>
           <li><button class="send-button submit-button" type="submit">Send</button></li>
         </ul>
+        <span id="validator-message"></span>
       </div>
     </form>
   </section>
@@ -321,7 +321,9 @@
       <p>nzefrancismaryeugorji@gmail.com</p>
     </div>
   </footer>
+  <div class="tester"></div>
   <script src="script.js"></script>
   <script src="main.js"></script>
+  <script src="form.js"></script>
 </body>
 </html>
