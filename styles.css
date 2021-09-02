@@ -823,7 +823,8 @@ textarea::placeholder {
     flex-direction: row-reverse;
   }
 
-  * pop-up styling for media-query starts here*/
+  /* pop-up styling for media-query starts here*/
+
 .container {
   display: none;
   position: fixed;
@@ -878,6 +879,7 @@ textarea::placeholder {
   .source-link {
     margin-top: 0;
   }
+  
 /* The pop-up window ends here */
 
   .contact-form {
