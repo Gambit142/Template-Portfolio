@@ -488,6 +488,7 @@ button:active {
 .source-link {
   margin-top: 1.5rem;
 }
+
 /* popup-styling */
 
 .contact-form {
@@ -822,8 +823,8 @@ textarea::placeholder {
   .reverse-div {
     flex-direction: row-reverse;
   }
-  
-  /* pop-up styling for media-query starts here*/
+
+  /* pop-up styling for media-query starts here */
 
   .container {
     display: none;
@@ -891,7 +892,7 @@ textarea::placeholder {
     margin-top: 0;
   }
 
-/* The pop-up window ends here */
+  /* The pop-up window ends here */
 
   .contact-form {
     margin: 7.125rem auto 0 auto;
