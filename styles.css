@@ -822,7 +822,7 @@ textarea::placeholder {
   .reverse-div {
     flex-direction: row-reverse;
   }
-
+  
   .contact-form {
     margin: 7.125rem auto 0 auto;
     width: 59.17%;
