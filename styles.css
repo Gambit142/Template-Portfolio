@@ -447,6 +447,11 @@ button:active {
   text-align: center;
 }
 
+#validator-message {
+  font-size: 1.25rem;
+  color: #FFFF00;
+}
+
 .card-badges {
   justify-content: center;
   margin-top: 1.5rem;
