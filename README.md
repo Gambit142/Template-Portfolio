@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Mobile Version
- <img src="Images/Screenshot2.jpeg">
+ <img src="Images/Modal-Window.png">
 
 > This project is a Microverse project given to students and it entails replicating a figma mobile version template
 
