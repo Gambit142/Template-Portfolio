@@ -828,7 +828,8 @@ textarea::placeholder {
     border: none;
   }
 
-  .reverse-div {
+  .reverse-div2,
+  .reverse-div4 {
     flex-direction: row-reverse;
   }
 
@@ -842,19 +843,30 @@ textarea::placeholder {
     left: 8.88rem;
     right: 8.88rem;
     z-index: 100;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     background-color: #191765;
     opacity: 0.95;
+    padding: 3%;
+    overflow: hidden;
   }
 
   .pop-up-container {
     padding: 0 1.5rem;
+    height: 100%;
+  }
+
+  .image-placeholder {
+    height: 30%;
+    margin-top: -20%;
+  }
+
+  .snapshot2 {
+    margin-top: -7%;
   }
 
   .title-container h2 {
     font-weight: 500;
-    font-size: 2.5rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
   }
 
   .closing-icon {
@@ -876,13 +888,22 @@ textarea::placeholder {
   }
 
   .card-description {
-    margin: 2.5rem 9.75rem 0 9.75rem;
+    margin: 0.5rem 6.75rem 0 6.75rem;
   }
 
   .card-text {
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.88rem;
+    font-size: 0.625rem;
+  }
+
+  .card-badges {
+    margin-top: -2%;
+    align-items: center;
+  }
+
+  .badge{
+    font-size: 0.625rem !important;
+    padding: 0 0.88rem;
   }
 
   .github {
@@ -893,13 +914,26 @@ textarea::placeholder {
     flex-direction: row;
     gap: 4.88rem;
     margin-bottom: 5.63rem;
-    margin-top: 3.03rem;
+    margin-top: 1.03rem;
     justify-content: center;
   }
 
-  .source-link,
   .live-link {
-    width: auto;
+    width: 17%;
+    height: 15%;
+    font-size: 0.625rem;
+  }
+
+  .source-link {
+    width: 18%;
+    height:15%;
+    font-size: 0.625rem;
+  }
+
+  .github-icon,
+  .live-icon {
+    height: 3%;
+    width: 10%;
   }
 
   .source-link {
