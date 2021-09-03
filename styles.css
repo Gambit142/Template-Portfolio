@@ -402,7 +402,7 @@ button:active {
   flex-direction: column;
   border: 1px solid #fff;
   padding: 0 1.5rem;
-  display: none;
+  display: block;
 }
 
 .title-container {
@@ -484,6 +484,8 @@ button:active {
 .live-link {
   background-color: #7d73fc;
   padding: 0.75rem 1rem 0.75rem 0.75rem;
+  align-self: center;
+  width: 55%;
 }
 
 .live-icon,
@@ -892,6 +894,12 @@ textarea::placeholder {
     gap: 4.88rem;
     margin-bottom: 5.63rem;
     margin-top: 3.03rem;
+    justify-content: center;
+  }
+
+  .source-link,
+  .live-link {
+    width: auto;
   }
 
   .source-link {

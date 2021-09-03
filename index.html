@@ -1,329 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Francis Ugorji's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0JED4GM2T0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <title>Francis Ugorji's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JED4GM2T0"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-0JED4GM2T0");
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    gtag('config', 'G-0JED4GM2T0');
-  </script>
-  <link rel='stylesheet' type='text/css' href='styles.css'>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <nav class="nav-section">
-    <div class="name">
-      <a href="#">Francis Ugorji</a>
-    </div>
-    <ul>
-      <li><a class=" increase nav-menu" href="#">Portfolio</a></li>
-      <li><a class="increase nav-menu" href="#">About</a></li>
-      <li><a class="increase nav-menu" href="#">Contact</a></li>
-      <li><a id="mailbox-icon" href="#"><img src="Images/Mailbox-Icon.png" alt="mailbox icon"></a></li>
-    </ul>
-  </nav>
-  <header>
-    <nav class="nav-bar display-flex justify-content">
+  <body>
+    <nav class="nav-section">
       <div class="name">
-        <a href="#" class="style">Francis Ugorji</a>
+        <a href="#">Francis Ugorji</a>
       </div>
-      <div class="icon-menu" id="menu-button">
-        <img class="icon-menu" src="Images/Icon-Menu.png" alt="Hamburger Icon">
-      </div>
+      <ul>
+        <li><a class="increase nav-menu" href="#">Portfolio</a></li>
+        <li><a class="increase nav-menu" href="#">About</a></li>
+        <li><a class="increase nav-menu" href="#">Contact</a></li>
+        <li>
+          <a id="mailbox-icon" href="#"
+            ><img src="Images/Mailbox-Icon.png" alt="mailbox icon"
+          /></a>
+        </li>
+      </ul>
     </nav>
-    <div id="mobile-menu"></div>
-  </header>
-  <section class="headline display-flex">
-    <div class="author-info display-flex">
-      <div class="author">
-        <h1 class="style">Francis Ugorji</h1>
-      </div>
-      <div class="title display-flex style">
-        <h2 class="style">Software Developer</h2>
-      </div>
-      <div class="description">
-        <p class="style">I can help you build a product, feature or website. Look through some of my works and
-          experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-      </div>
-    </div>
-    <section class="links display-flex justify-content" id="about">
-      <div class="languages">
-        <ul>
-          <li id="element-languages" class="style">Language</li>
-          <li><a class="increase" href="#">Javascript</a></li>
-          <li><a class="increase" href="#">Ruby</a></li>
-          <li><a class="increase" href="#">Html</a></li>
-          <li><a class="increase" href="#">Css</a></li>
-        </ul>
-      </div>
-      <div class="frameworks">
-        <ul>
-          <li id="element-frameworks" class="style">Frameworks</li>
-          <li><a class="increase" href="#">Bootstrap</a></li>
-          <li><a class="increase" href="#">Ruby on Rails</a></li>
-          <li><a class="increase" href="#">RSPec</a></li>
-          <li><a class="increase" href="#">CapyBara</a></li>
-          <li><a class="increase" href="#">Selenium</a></li>
-        </ul>
-      </div>
-      <div class="skills">
-        <ul>
-          <li id="element-skills" class="style">Skills</li>
-          <li class="skill"><a class="increase" href="#">Codekit</a></li>
-          <li class="skill"><a class="increase" href="#">Github</a></li>
-          <li class="skill"><a class="increase" href="#">Codepen</a></li>
-          <li class="skill"><a class="increase" href="#">Gitlab</a></li>
-          <li class="skill"><a class="increase" href="#">Terminal</a></li>
-        </ul>
-      </div>
-    </section>
-    <section class="social-media-accounts">
-      <div class="vector-div">
-        <div class="vector-icon">
-          <img src="Images/Vector-Icon.png" alt="Down Arrow icon">
+    <header>
+      <nav class="nav-bar display-flex justify-content">
+        <div class="name">
+          <a href="#" class="style">Francis Ugorji</a>
         </div>
-        <div class="work-div">
+        <div class="icon-menu" id="menu-button">
+          <img
+            class="icon-menu"
+            src="Images/Icon-Menu.png"
+            alt="Hamburger Icon"
+          />
+        </div>
+      </nav>
+      <div id="mobile-menu"></div>
+    </header>
+    <section class="headline display-flex">
+      <div class="author-info display-flex">
+        <div class="author">
+          <h1 class="style">Francis Ugorji</h1>
+        </div>
+        <div class="title display-flex style">
+          <h2 class="style">Software Developer</h2>
+        </div>
+        <div class="description">
+          <p class="style">
+            I can help you build a product, feature or website. Look through
+            some of my works and experience! If you like what you see and have a
+            project you need coded, don't hesitate to contact me.
+          </p>
+        </div>
+      </div>
+      <section class="links display-flex justify-content" id="about">
+        <div class="languages">
+          <ul>
+            <li id="element-languages" class="style">Language</li>
+            <li><a class="increase" href="#">Javascript</a></li>
+            <li><a class="increase" href="#">Ruby</a></li>
+            <li><a class="increase" href="#">Html</a></li>
+            <li><a class="increase" href="#">Css</a></li>
+          </ul>
+        </div>
+        <div class="frameworks">
+          <ul>
+            <li id="element-frameworks" class="style">Frameworks</li>
+            <li><a class="increase" href="#">Bootstrap</a></li>
+            <li><a class="increase" href="#">Ruby on Rails</a></li>
+            <li><a class="increase" href="#">RSPec</a></li>
+            <li><a class="increase" href="#">CapyBara</a></li>
+            <li><a class="increase" href="#">Selenium</a></li>
+          </ul>
+        </div>
+        <div class="skills">
+          <ul>
+            <li id="element-skills" class="style">Skills</li>
+            <li class="skill"><a class="increase" href="#">Codekit</a></li>
+            <li class="skill"><a class="increase" href="#">Github</a></li>
+            <li class="skill"><a class="increase" href="#">Codepen</a></li>
+            <li class="skill"><a class="increase" href="#">Gitlab</a></li>
+            <li class="skill"><a class="increase" href="#">Terminal</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="social-media-accounts">
+        <div class="vector-div">
+          <div class="vector-icon">
+            <img src="Images/Vector-Icon.png" alt="Down Arrow icon" />
+          </div>
+          <div class="work-div">
+            <h3 class="word style">Work</h3>
+          </div>
+        </div>
+        <ul class="icons display-flex justify-content">
+          <li>
+            <a href="#"
+              ><img src="Images/Icon-GitHub.png" alt="Github logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Icon-Angelist.png" alt="Angelist logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Icon-Twitter.png" alt="Twitter logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Icon-Medium.png" alt="Medium logo"
+            /></a>
+          </li>
+        </ul>
+        <div class="vector-div">
+          <div class="vector-icon">
+            <img src="Images/Vector-Icon.png" alt="Down Arrow icon" />
+          </div>
+          <div class="work-div">
+            <h3 class="word style">Work</h3>
+          </div>
+        </div>
+      </section>
+      <div class="social-media display-flex">
+        <ul class="social-icons display-flex justify-content">
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-GitHub.png" alt="Github logo"
+            /></a>
+          </li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"
+            /></a>
+          </li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Angelist.png" alt="AAngelist logo"
+            /></a>
+          </li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Twitter.png" alt="Twitter logo"
+            /></a>
+          </li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Medium.png" alt="Medium logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <section class="vector display-flex justify-content style">
+        <div>
+          <img src="Images/Vector-Icon.png" alt="Down Arrow icon" />
+        </div>
+        <div>
           <h3 class="word style">Work</h3>
         </div>
-      </div>
-      <ul class="icons display-flex justify-content">
-        <li>
-          <a href="#"><img src="Images/Icon-GitHub.png" alt="Github logo"></a>
-        </li>
-        <li>
-          <a href="#"><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"></a>
-        </li>
-        <li>
-          <a href="#"><img src="Images/Icon-Angelist.png" alt="Angelist logo"></a>
-        </li>
-        <li>
-          <a href="#"><img src="Images/Icon-Twitter.png" alt="Twitter logo"></a>
-        </li>
-        <li>
-          <a href="#"><img src="Images/Icon-Medium.png" alt="Medium logo"></a>
-        </li>
-      </ul>
-      <div class="vector-div">
-        <div class="vector-icon">
-          <img src="Images/Vector-Icon.png" alt="Down Arrow icon">
-        </div>
-        <div class="work-div">
-          <h3 class="word style">Work</h3>
-        </div>
+      </section>
+    </section>
+    <section>
+      <div class="about-work display-flex" id="cards-section">
+        <h2 class="style">
+          MY RECENT<br />
+          WORK
+        </h2>
       </div>
     </section>
-    <div class="social-media display-flex">
-      <ul class="social-icons display-flex justify-content">
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-GitHub.png" alt="Github logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Angelist.png" alt="AAngelist logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Twitter.png" alt="Twitter logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Medium.png" alt="Medium logo"></a>
-        </li>
-      </ul>
-    </div>
-    <section class="vector display-flex justify-content style">
-      <div>
-        <img src="Images/Vector-Icon.png" alt="Down Arrow icon">
-      </div>
-      <div>
-        <h3 class="word style">Work</h3>
+    <section class="about-work-div">
+      <div class="work-header display-flex">
+        <h2 class="style">My recent work</h2>
       </div>
     </section>
-  </section>
-  <section>
-    <div class="about-work display-flex" id="cards-section">
-      <h2 class="style">MY RECENT<br> WORK</h2>
-    </div>
-  </section>
-  <section class="about-work-div">
-    <div class="work-header display-flex">
-      <h2 class="style">My recent work</h2>
-    </div>
-  </section>
-  <div class="line3"></div>
-  <main>
-    <section class="work-container">
-      <article class="cards-container display-flex">
-        <div class="placeholder"></div>
-        <div class=" details-div display-flex">
-          <div class="cards-header display-flex">
-            <h3 class="style">Multi-Post Stories</h3>
+    <div class="line3"></div>
+    <main>
+      <!-- <section class="work-container">
+        <article class="cards-container reverse-div display-flex">
+          <div class="placeholder"></div>
+          <div class="details-div display-flex">
+            <div class="cards-header display-flex">
+              <h3 class="style">Multi-Post Stories</h3>
+            </div>
+            <div class="card-info">
+              <p class="style">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+            </div>
+            <ul class="languages-div">
+              <li class="lang style">css</li>
+              <li class="lang style">html</li>
+              <li class="lang style">bootstrap</li>
+              <li class="lang style ruby">Ruby</li>
+            </ul>
+            <div class="btn-div">
+              <button type="button" class="see-project">
+                See Project
+              </button>
+            </div>
           </div>
-          <div class="card-info">
-            <p class="style">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-              been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-              dummy text.</p>
+        </article>
+      </section>
+      <section class="work-container">
+        <article class="cards-container display-flex">
+          <div class="placeholder"></div>
+          <div class="details-div display-flex">
+            <div class="cards-header display-flex">
+              <h3 class="style">Multi-Post Stories</h3>
+            </div>
+            <div class="card-info">
+              <p class="style">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+            </div>
+            <ul class="languages-div">
+              <li class="lang style">css</li>
+              <li class="lang style">html</li>
+              <li class="lang style">bootstrap</li>
+              <li class="lang style ruby">Ruby</li>
+            </ul>
+            <div class="btn-div">
+              <button type="button" class="see-project">
+                See Project
+              </button>
+            </div>
           </div>
-          <ul class="languages-div">
-            <li class="lang style">css</li>
-            <li class="lang style">html</li>
-            <li class="lang style">bootstrap</li>
-            <li class="ruby lang style">Ruby</li>
-          </ul>
-          <div class="btn-div">
-            <button data-target = "#modal-1" type="button" class="see-project">See Project</button>
+        </article>
+      </section>
+      <section class="work-container">
+        <article class="cards-container reverse-div display-flex">
+          <div class="placeholder"></div>
+          <div class="details-div display-flex">
+            <div class="cards-header display-flex">
+              <h3 class="style">Multi-Post Stories</h3>
+            </div>
+            <div class="card-info">
+              <p class="style">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+            </div>
+            <ul class="languages-div">
+              <li class="lang style">css</li>
+              <li class="lang style">html</li>
+              <li class="lang style">bootstrap</li>
+              <li class="lang style ruby">Ruby</li>
+            </ul>
+            <div class="btn-div">
+              <button type="button" class="see-project">
+                See Project
+              </button>
+            </div>
           </div>
-        </div>
-      </article>
-    </section>
-    <section class="work-container">
-      <article class="cards-container reverse-div display-flex">
-        <div class="placeholder"></div>
-        <div class=" details-div display-flex">
-          <div class="cards-header display-flex">
-            <h3 class="style">Multi-Post Stories</h3>
-          </div>
-          <div class="card-info">
-            <p class="style">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-              been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-              dummy text.</p>
-          </div>
-          <ul class="languages-div">
-            <li class="lang style">css</li>
-            <li class="lang style">html</li>
-            <li class="lang style">bootstrap</li>
-            <li class="lang style ruby">Ruby</li>
-          </ul>
-          <div class="btn-div">
-            <button type="button" data-target = "#modal-2" class="see-project">See Project</button>
-          </div>
-        </div>
-      </article>
-    </section>
-    <section class="work-container">
-      <article class="cards-container display-flex">
-        <div class="placeholder"></div>
-        <div class=" details-div display-flex">
-          <div class="cards-header display-flex">
-            <h3 class="style">Multi-Post Stories</h3>
-          </div>
-          <div class="card-info">
-            <p class="style">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-              been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-              dummy text.</p>
-          </div>
-          <ul class="languages-div">
-            <li class="lang style">css</li>
-            <li class="lang style">html</li>
-            <li class="lang style">bootstrap</li>
-            <li class="lang style ruby">Ruby</li>
-          </ul>
-          <div class="btn-div">
-            <button type="button" data-target = "#modal-3" class="see-project">See Project</button>
-          </div>
-        </div>
-      </article>
-    </section>
-    <section class="work-container">
-      <article class="cards-container reverse-div display-flex">
-        <div class="placeholder"></div>
-        <div class=" details-div display-flex">
-          <div class="cards-header display-flex">
-            <h3 class="style">Multi-Post Stories</h3>
-          </div>
-          <div class="card-info">
-            <p class="style">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-              been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-              dummy text.</p>
-          </div>
-          <ul class="languages-div">
-            <li class="lang style">css</li>
-            <li class="lang style">html</li>
-            <li class="lang style">bootstrap</li>
-            <li class="lang style ruby">Ruby</li>
-          </ul>
-          <div class="btn-div">
-            <button type="button" data-target = "#modal-4" class="see-project">See Project</button>
-          </div>
-        </div>
-      </article>
-    </section>
-  </main>
+        </article>
+      </section> -->
+    </main>
 
+    <!-- popup window section-->
+    <section id="modal-container" class="container">
+      <div class="pop-up-container display-flex" id="modal-content">
+        <div class="title-container display-flex style">
+          <h2>Multi-Post Stories</h2>
+          <img
+            class="closing-button"
+            src="Images/Closing-Icon.png"
+            alt="Closing Icon"
+          />
+        </div>
+        <div class="image-placeholder display-flex">
+          <img
+            class="snapshot1"
+            src="Images/Snapshoot-Image.png"
+            alt="Snapshot of a card design"
+          />
+          <img
+            class="snapshot2"
+            src="Images/Snapshoot-Image2.png"
+            alt="Snapshot of a card design"
+          />
+        </div>
+        <div class="card-description display-flex">
+          <p class="card-text style">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it 1960s with the relea. Lorem Ipsum is simply dummy
+            text of the printing and typesetting ever since the 1500s, when an
+            unknown printer took a galley of type veris lapoa todoe.
+          </p>
+        </div>
+        <div class="card-badges display-flex">
+          <h4 class="badge html">HTML</h4>
+          <h4 class="badge">Ruby on Rails</h4>
+          <h4 class="badge">CSS</h4>
+          <h4 class="badge github">Github</h4>
+        </div>
+        <div class="links-div display-flex">
+          <a
+            href="https://gambit142.github.io/Template-Portfolio/"
+            class="live-link"
+          >
+            See Live
+            <img
+              class="live-icon"
+              src="/Images/Live-Icon.png"
+              alt="Live Icon"
+            />
+          </a>
+          <a
+            href="https://github.com/Gambit142/Template-Portfolio"
+            class="source-link"
+          >
+            See Source
+            <img
+              class="github-icon"
+              src="Images/Github-Logo.png"
+              alt="Github Icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="pop-up-container display-flex" id="modal-container"></section> -->
 
-   <!-- popup window section-->
-   <section id="modal-container" class="container"></section>
-  <!-- <section class="pop-up-container display-flex" id="modal-container"></section> -->
-
-  <section class="contact-form" id="contacts">
-    <div class="contact-us">
-      <h2 class=" hide style">Contact Us</h2>
-      <h2 class="lets-chat">Let's chat!</h2>
-    </div>
-    <p class="style">If you have an application you are interested in developing, a feature that you need built or a
-      project that needs coding. I’d love to help with it </p>
-    <form id="form" class="form-outlay" method="POST" action="https://formspree.io/f/mvodvrgn">
-      <div class="contact-form-fieldset">
-        <ul class="contact-form-ul display-flex">
-          <li>
-            <label for="user_name"></label>
-            <input id="user_name" class="input-text style" type="text" name="user_name" placeholder="Francis Ugorji"
-              required maxlength="30">
+    <section class="contact-form" id="contacts">
+      <div class="contact-us">
+        <h2 class="hide style">Contact Us</h2>
+        <h2 class="lets-chat">Let's chat!</h2>
+      </div>
+      <p class="style">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form
+        id="form"
+        class="form-outlay"
+        method="POST"
+        action="https://formspree.io/f/mvodvrgn"
+      >
+        <div class="contact-form-fieldset">
+          <ul class="contact-form-ul display-flex">
+            <li>
+              <label for="user_name"></label>
+              <input
+                id="user_name"
+                class="input-text style"
+                type="text"
+                name="user_name"
+                placeholder="Francis Ugorji"
+                required
+                maxlength="30"
+              />
+            </li>
+            <li>
+              <label for="user_email"></label>
+              <input
+                id="user_email"
+                class="input-email style"
+                type="email"
+                name="user_email"
+                placeholder="francis@gmail.com"
+                required
+              />
+            </li>
+            <li>
+              <label for="user_message"></label>
+              <textarea
+                id="user_message"
+                placeholder="Enter text here"
+                class="enter-text style"
+                required
+                maxlength="500"
+                name="user_message"
+              >
+Enter text here
+          </textarea
+              >
+            </li>
+            <li>
+              <button class="see-project submit-button" type="submit">
+                See Project
+              </button>
+            </li>
+            <li>
+              <button class="send-button submit-button" type="submit">
+                Send
+              </button>
+            </li>
+          </ul>
+          <span id="validator-message"></span>
+        </div>
+      </form>
+    </section>
+    <footer class="social-media-handles display-flex">
+      <div class="footer-image-div">
+        <ul class="social-icons display-flex justify-content">
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-GitHub.png" alt="Github logo"
+            /></a>
           </li>
-          <li>
-            <label for="user_email"></label>
-            <input id="user_email" class="input-email style" type="email" name="user_email"
-              placeholder="francis@gmail.com" required>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"
+            /></a>
           </li>
-          <li>
-            <label for="user_message"></label>
-            <textarea id="user_message" placeholder="Enter text here" class="enter-text style" required maxlength="500"
-              name="user_message">Enter text here
-          </textarea>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Angelist.png" alt="Angelist logo"
+            /></a>
           </li>
-          <li><button class="see-project submit-button" type="submit">See Project</button></li>
-          <li><button class="send-button submit-button" type="submit">Send</button></li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Twitter.png" alt="Twitter logo"
+            /></a>
+          </li>
+          <li class="icon-frame">
+            <a href="#"
+              ><img src="Images/Icon-Medium.png" alt="Medium logo"
+            /></a>
+          </li>
         </ul>
-        <span id="validator-message"></span>
       </div>
-    </form>
-  </section>
-  <footer class="social-media-handles display-flex">
-    <div class="footer-image-div">
-      <ul class="social-icons display-flex justify-content">
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-GitHub.png" alt="Github logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Linkedin.png" alt="LinkedIn logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Angelist.png" alt="Angelist logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Twitter.png" alt="Twitter logo"></a>
-        </li>
-        <li class="icon-frame">
-          <a href="#"><img src="Images/Icon-Medium.png" alt="Medium logo"></a>
-        </li>
-      </ul>
-    </div>
-    <div class="email-div style">
-      <p>nzefrancismaryeugorji@gmail.com</p>
-    </div>
-  </footer>
-  <div class="tester"></div>
-  <script src="script.js"></script>
-  <script src="main.js"></script>
-  <script src="form.js"></script>
-</body>
+      <div class="email-div style">
+        <p>nzefrancismaryeugorji@gmail.com</p>
+      </div>
+    </footer>
+    <div class="tester"></div>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="form.js"></script>
+  </body>
 </html>
