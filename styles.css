@@ -300,6 +300,11 @@ li {
   background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
 }
 
+.placeholder img {
+  width: 100%;
+  height: 100%;
+}
+
 .details-div {
   flex-direction: column;
   transition-property: background-color;
@@ -385,8 +390,17 @@ button:active {
 }
 
 /* popup-styling */
-.container {
+
+.pop-up-container {
+  flex-direction: column;
+  border: 1px solid #fff;
+  padding: 0 1.5rem;
+  /* display: block; */
   display: none;
+}
+
+.pop-up-container.active {
+  display: flex;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -396,13 +410,6 @@ button:active {
   overflow-y: auto;
   background-color: #191765;
   opacity: 0.95;
-}
-
-.pop-up-container {
-  flex-direction: column;
-  border: 1px solid #fff;
-  padding: 0 1.5rem;
-  display: block;
 }
 
 .title-container {
@@ -417,6 +424,7 @@ button:active {
 }
 
 .closing-button {
+  z-index: 100;
   width: 0.88rem;
   height: 0.88rem;
 }
@@ -485,7 +493,7 @@ button:active {
   background-color: #7d73fc;
   padding: 0.75rem 1rem 0.75rem 0.75rem;
   align-self: center;
-  width: 55%;
+  /* width: 55%; */
 }
 
 .live-icon,
@@ -856,7 +864,8 @@ textarea::placeholder {
 
   .title-container h2 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    padding: 1.5rem;
   }
 
   .closing-icon {
@@ -866,7 +875,7 @@ textarea::placeholder {
 
   .image-placeholder {
     margin-top: 2.5rem;
-    height: 30%;
+    height: 43%;
   }
 
   .snapshot1 {
@@ -876,16 +885,18 @@ textarea::placeholder {
   .snapshot2 {
     display: block;
     width: 100%;
-    margin-top: -7%;
+    /* margin-top: -7%; */
   }
 
   .card-description {
-    margin: 0.5rem 6.75rem 0 6.75rem;
+    margin: 2.375rem 20% 5rem 20%;
   }
 
   .card-text {
     font-weight: normal;
-    font-size: 0.625rem;
+    font-size: 1rem;
+    line-height: 30px;
+    /* padding: 0 20%; */
   }
 
   .card-badges {
@@ -906,28 +917,26 @@ textarea::placeholder {
     flex-direction: row;
     gap: 4.88rem;
     margin-bottom: 5.63rem;
-    margin-top: 1.03rem;
+    margin-top: 3.03rem;
     justify-content: center;
   }
 
   .live-link {
-    width: 17%;
-    height: 15%;
-    font-size: 0.625rem;
+    display: flex;
+    align-items: center;
   }
 
   .source-link {
-    width: 18%;
-    height: 15%;
-    font-size: 0.625rem;
+    display: flex;
+    align-items: center;
     margin-top: 0;
   }
 
-  .github-icon,
+  /* .github-icon,
   .live-icon {
     height: 3%;
     width: 10%;
-  }
+  } */
 
   /* The pop-up window ends here */
 

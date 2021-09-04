@@ -1,5 +1,6 @@
 const emailAddress = document.getElementById('user_email');
-// const filteredEmail = emailAddress.replace(/\W/gi, '');
+const fullName = document.getElementById('user_name');
+const textMessage = document.getElementById('user_message');
 const templateForm = document.getElementById('form');
 const validatorMessage = document.getElementById('validator-message');
 templateForm.addEventListener('submit', (e) => {
@@ -10,3 +11,6 @@ templateForm.addEventListener('submit', (e) => {
     validatorMessage.textContent = '';
   }
 });
+
+
+
