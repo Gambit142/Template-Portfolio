@@ -395,7 +395,6 @@ button:active {
   flex-direction: column;
   border: 1px solid #fff;
   padding: 0 1.5rem;
-  /* display: block; */
   display: none;
 }
 
@@ -493,7 +492,6 @@ button:active {
   background-color: #7d73fc;
   padding: 0.75rem 1rem 0.75rem 0.75rem;
   align-self: center;
-  /* width: 55%; */
 }
 
 .live-icon,
@@ -885,7 +883,6 @@ textarea::placeholder {
   .snapshot2 {
     display: block;
     width: 100%;
-    /* margin-top: -7%; */
   }
 
   .card-description {
@@ -896,7 +893,6 @@ textarea::placeholder {
     font-weight: normal;
     font-size: 1rem;
     line-height: 30px;
-    /* padding: 0 20%; */
   }
 
   .card-badges {
