@@ -12,5 +12,3 @@ templateForm.addEventListener('submit', (e) => {
   }
 });
 
-
-
