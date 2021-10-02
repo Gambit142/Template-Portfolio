@@ -296,7 +296,7 @@ li {
 }
 
 .placeholder {
-  height: 236px;
+  height: 250px;
   background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
 }
 
@@ -431,10 +431,12 @@ button:active {
 .image-placeholder {
   justify-content: center;
   margin-top: 1.5rem;
+  height: 50%;
 }
 
 .snapshot1 {
   width: 100%;
+  height: 100%;
 }
 
 .snapshot2 {
@@ -872,12 +874,17 @@ textarea::placeholder {
   }
 
   .image-placeholder {
-    margin-top: 2.5rem;
-    height: 43%;
+    height: 75%;
+    width: 90%;
+    margin: 2.5rem auto 0;
   }
 
   .snapshot1 {
     display: none;
+  }
+
+  .project-snapshot1 {
+    width: 100%;
   }
 
   .snapshot2 {
@@ -927,12 +934,6 @@ textarea::placeholder {
     align-items: center;
     margin-top: 0;
   }
-
-  /* .github-icon,
-  .live-icon {
-    height: 3%;
-    width: 10%;
-  } */
 
   /* The pop-up window ends here */
 
@@ -1019,6 +1020,10 @@ textarea::placeholder {
 
   a#mailbox-icon:hover > img {
     transform: rotate(360deg);
+  }
+
+  .project-snapshot1 {
+    width: 75%;
   }
 }
 

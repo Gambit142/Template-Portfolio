@@ -1,40 +1,42 @@
 // // Create object to store data needed for the this branch feature
 const projects = [
   {
-    name: 'Multi-Post Stories',
+    name: 'HTML-CSS CAPSTONE',
     number: 1,
-    description: `A daily selection of privately personalized reads; no accounts
-          or sign-ups required. has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a
-          standard dummy text.`,
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea. 
-          Lorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    description: ` 
+    The project seeks to test my knowledge of Html5, Css3, and Javascript. 
+    In the project, I created two pages for a soccer tournament, a mobile menu for the mobile version, 
+    and dynamically displayed the main players of the tournament using javascript.`,
+    description2: `This capstone project was assigned to me as a Microverse student. 
+    The project seeks to test my knowledge of Html5, Css3, and Javascript. 
+    In the project, I created two pages for a soccer tournament, a mobile menu for the mobile version, 
+    and dynamically displayed the main players of the tournament using javascript.`,
+    technologies: ['css', 'html', 'bootstrap', 'JS'],
     image: {
-      imageUrl: './Images/Snapshoot-Image.png',
-      imageUrl2: './Images/Snapshoot-Image2.png',
-      imageAltText: 'project 1 placeholder image',
+      imageUrl: './Images/HTML-CAPSTONE.png',
+      imageUrl2: './Images/HTML-CAPSTONE.png',
+      imageAltText: 'HTML-CSS Capstone Project',
     },
-    links: [' https://gambit142.github.io/Template-Portfolio/', 'https://github.com/Gambit142/Template-Portfolio'],
+    links: ['https://gambit142.github.io/Html-Css-javaScript-Capstone/', 'https://github.com/Gambit142/Html-Css-javaScript-Capstone'],
   },
   {
-    name: 'Multi-Post Stories 2',
+    name: 'Todo-List',
     number: 2,
-    description: `A daily selection of privately personalized reads; no accounts
-          or sign-ups required. has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a
-          standard dummy text.`,
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea. 
-          Lorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    description: `The to-do list project is an web interface that allows users to successfully organize their day 
+    by inputting prioritized tasks. The project also allows users to carry out the CRUD operations for 
+    add, edit and delete. Two special features of the app are that it saves tasks in the local storage 
+    of the user's browser, and it allows users to prioritize their tasks by dragging up and down the list section.`,
+    description2: `The to-do list project is an app that allows users to successfully organize their day 
+    by inputting prioritized tasks. The project also allows users to carry out the CRUD operations for 
+    add, edit and delete. Two special features of the web interface are that it saves tasks in the local storage 
+    of the user's browser, and it allows users to prioritize their tasks by dragging up and down the list section.`,
+    technologies: ['css', 'html', 'bootstrap', 'JS'],
     image: {
-      imageUrl: './Images/Snapshoot-Image.png',
-      imageUrl2: './Images/Snapshoot-Image2.png',
-      imageAltText: 'project 2 placeholder image',
+      imageUrl: './Images/To-Do-List-Project.png',
+      imageUrl2: './Images/To-Do-List-Project.png',
+      imageAltText: 'To-do List project',
     },
-    links: [' https://gambit142.github.io/Template-Portfolio/', 'https://github.com/Gambit142/Template-Portfolio'],
+    links: [' https://gambit142.github.io/To-Do-List-Project/', 'https://github.com/Gambit142/To-Do-List-Project'],
   },
   {
     name: 'Multi-Post Stories 3',
@@ -79,7 +81,7 @@ function createCard1(project) {
   const cardString = `<section class="work-container">
   <article class="cards-container reverse-div${project.number} display-flex">
     <div class="placeholder">
-    <img src="${project.image.imageUrl}"/>
+    <img class="project-snapshot1" src="${project.image.imageUrl}" alt="${project.image.imageAltText}"/>
     </div>
     <div class="details-div display-flex">
       <div class="cards-header display-flex">
@@ -152,11 +154,6 @@ projects.forEach((modal) => {
   modalContainer.innerHTML += createModal(modal);
 });
 
-// function displayModal() {
-//   const currentModal = document.getElementById('')
-//   modalContainer.style.display = 'block';
-// }
-
 // Create functions that opens and close the popup window when see-project button is clicked
 const projectButtons = document.querySelectorAll('.see-project');
 
@@ -175,7 +172,3 @@ closingButtons.forEach((button) => {
     currentModal.classList.remove('active');
   });
 });
-
-// closingButtons.addEventListener('click', () => {
-//   workArea.style.display = 'none';
-// });
