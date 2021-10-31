@@ -39,44 +39,44 @@ const projects = [
     links: [' https://gambit142.github.io/To-Do-List-Project/', 'https://github.com/Gambit142/To-Do-List-Project'],
   },
   {
-    name: 'Multi-Post Stories 3',
+    name: 'Seafood Restaurant',
     number: 3,
-    description: `A daily selection of privately personalized reads; no accounts
-          or sign-ups required. has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a
-          standard dummy text.`,
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea. 
-          Lorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    description: `This is a Seafood Restaurant's website that showcases different seafood meals to users,
+           users can like the meals, book their reservations and add comments to each meal. 
+           Meals are fetched from themealdb API and comments and reservations are fetched from an Involvement API`,
+    description2: `This is a Seafood Restaurant's website that showcases different seafood meals to users,
+    users can like the meals, book their reservations and add comments to each meal. 
+    Meals are fetched from themealdb API and comments and reservations are fetched from an Involvement API`,
+    technologies: ['javascript', 'css', 'html', 'webpack'],
     image: {
-      imageUrl: './Images/Snapshoot-Image.png',
-      imageUrl2: './Images/Snapshoot-Image2.png',
+      imageUrl: './Images/Seafood-Restaurant.png',
+      imageUrl2: './Images/Seafood-Restaurant.png',
       imageAltText: 'project 3 placeholder image',
     },
-    links: [' https://gambit142.github.io/Template-Portfolio/', 'https://github.com/Gambit142/Template-Portfolio'],
+    links: ['https://ahmed-al-farouq.github.io/Seafood-Restaurant/', 'https://github.com/ahmed-al-farouq/Seafood-Restaurant'],
   },
   {
-    name: 'Multi-Post Stories 4',
+    name: 'Math Magicians',
     number: 4,
-    description: `A daily selection of privately personalized reads; no accounts
-    or sign-ups required. has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a
-          standard dummy text.`,
-    description2: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea. 
-          Lorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    description: `This is a Single Page App (SPA) that allows lovers of Mathematics make simple calculations.
+          The app has thre pages; 'The Home', 'Calculator' and 'Quotes' pages. 
+          On the calculator page, the user can perform addition, subtraction, division and multiplication of numbers.
+          The quotes pages displays random mathematical quotes by great historians.`,
+    description2: `This is a Single Page App (SPA) that allows lovers of Mathematics make simple calculations.
+    The app has thre pages; 'The Home', 'Calculator' and 'Quotes' pages. 
+    On the calculator page, the user can perform addition, subtraction, division and multiplication of numbers.
+    The quotes pages displays random mathematical quotes by great historians.`,
+    technologies: ['reactjs', 'css', 'webpack', 'babel'],
     image: {
-      imageUrl: './Images/Snapshoot-Image.png',
-      imageUrl2: './Images/Snapshoot-Image2.png',
+      imageUrl: './Images/Math-Magicians.png',
+      imageUrl2: './Images/Math-Magicians.png',
       imageAltText: 'project 4 placeholder image',
     },
-    links: [' https://gambit142.github.io/Template-Portfolio/', 'https://github.com/Gambit142/Template-Portfolio'],
+    links: ['https://gambit142.github.io/Math-Magicians/', 'https://github.com/Gambit142/Math-Magicians'],
   },
 ];
 
-// // Create the cards section dynamically using string literals
+// Create the cards section dynamically using string literals
 function createCard1(project) {
   const cardString = `<section class="work-container">
   <article class="cards-container reverse-div${project.number} display-flex">
@@ -112,9 +112,9 @@ function createCard1(project) {
 function createModal(project) {
   const modalInner = `
 <div class="pop-up-container display-flex" id="modal${project.number}">
+<img class="closing-button" src="./Images/Closing-Icon.png" alt="Closing Icon">
 <div class="title-container display-flex style">
   <h2>${project.name}</h2>
-  <img class="closing-button" src="./Images/Closing-Icon.png" alt="Closing Icon">
 </div>
 <div class="image-placeholder display-flex">
   <img class="snapshot1" src="${project.image.imageUrl}" alt="${project.image.imageAltText}">

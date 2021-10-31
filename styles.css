@@ -308,12 +308,11 @@ li {
 .details-div {
   flex-direction: column;
   transition-property: background-color;
-  transition-duration: 3s;
+  transition-duration: 2s;
   overflow: hidden;
 }
 
 .cards-header {
-  height: 105px;
   align-items: center;
   margin-top: 24px;
 }
@@ -403,12 +402,12 @@ button:active {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 1.5rem;
-  right: 1.5rem;
+  left: 0;
+  right: 0;
   z-index: 100;
   overflow-y: auto;
   background-color: #191765;
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .title-container {
@@ -794,12 +793,16 @@ textarea::placeholder {
 
   .details-div {
     width: 38.75%;
-    margin-top: 2.69rem;
+    margin-top: 0.19rem;
   }
 
   .cards-header {
-    height: 5rem;
+    margin-top: 0;
     align-items: center;
+  }
+
+  .card-info {
+    height: 15.63rem;
   }
 
   .cards-header h3 {
@@ -807,11 +810,6 @@ textarea::placeholder {
     line-height: 2.25rem;
     font-weight: bold;
     color: #fff;
-  }
-
-  .card-info {
-    height: 8.75rem;
-    margin-top: 1.5rem;
   }
 
   .card-info p {
@@ -822,10 +820,15 @@ textarea::placeholder {
   }
 
   .languages-div {
-    margin: 1.5rem 0 0 0;
     justify-content: space-around;
     padding: 0;
     flex-wrap: nowrap;
+  }
+
+  .lang {
+    align-self: center;
+    padding: 5px 12px;
+    color: #cda2a2;
   }
 
   .bootstrap {
@@ -862,6 +865,10 @@ textarea::placeholder {
     height: 100%;
   }
 
+  .title-container {
+    justify-content: center;
+  }
+
   .title-container h2 {
     font-weight: 500;
     font-size: 3rem;
@@ -873,9 +880,14 @@ textarea::placeholder {
     height: 1.13rem;
   }
 
+  .closing-button {
+    align-self: flex-end;
+    margin-top: 1rem;
+  }
+
   .image-placeholder {
-    height: 75%;
-    width: 90%;
+    height: 50%;
+    width: 40%;
     margin: 2.5rem auto 0;
   }
 
