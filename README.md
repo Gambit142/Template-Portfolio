@@ -21,8 +21,8 @@
 ## Getting Started
 To get a local copy up and running:
 1. Clone this repository or download the Zip folder:
-**``git clone https://github.com/Gambit142/Mobile-Version.git``**
-2. Navigate to the location of the folder in your machine:
+**``https://github.com/Gambit142/Template-Portfolio.git``**
+1. Navigate to the location of the folder in your machine:
 **``you@your-Pc-name:~$ cd <folder>``**
 
 ## Authors
@@ -53,7 +53,7 @@ To get a local copy up and running:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gambit142/Template-Portfolio/issues).
 
 ## Show your support
 
