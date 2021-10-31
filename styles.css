@@ -425,6 +425,8 @@ button:active {
   z-index: 100;
   width: 0.88rem;
   height: 0.88rem;
+  align-self: flex-end;
+  margin-top: 1rem;
 }
 
 .image-placeholder {
@@ -595,6 +597,38 @@ textarea::placeholder {
 
 .send-button {
   display: none;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.add-zoom {
+  animation: zoomIn 0.8s ease-in;
+}
+
+.remove-zoom {
+  animation: zoomOut 0.8s ease-out forwards;
 }
 
 @media only screen and (min-width: 992px) {
@@ -871,18 +905,13 @@ textarea::placeholder {
 
   .title-container h2 {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1.5rem;
   }
 
   .closing-icon {
     width: 1.13rem;
     height: 1.13rem;
-  }
-
-  .closing-button {
-    align-self: flex-end;
-    margin-top: 1rem;
   }
 
   .image-placeholder {
