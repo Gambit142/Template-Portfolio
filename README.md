@@ -1,10 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile Version
- <img src="Images/Modal-Window.png">
+# Personal Portfolio
 
-> This project is a Microverse project given to students and it entails replicating a figma mobile version template
+> This website contains some of my recent projects. If you want to see the live demonstration and source code for each project, click the `See Projects` button for each card, a popup window will appear, scroll down and click either of the `See Live` or `See Source` buttons.
 
+> |Mobile Version|Desktop Version|
+> |--------------|---------------|
+> |![screenshot](Images/Mobile-Version.png)|![screenshot2](Images/Desktop-Version.png)|
 
 ## Live Demo Link
 [Live Demo Link](https://gambit142.github.io/Template-Portfolio/)
@@ -28,7 +30,7 @@ To get a local copy up and running:
 👤 **Francis Nzenwa Ugorji**
 
 - GitHub: [@githubhandle](https://github.com/Gambit142)
-- LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168) 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-ugorji-a567b7168) 
 
 ## Contributors
 👤 **Iyadi Cyril**
