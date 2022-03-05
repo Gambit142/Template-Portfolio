@@ -339,7 +339,6 @@ li {
   display: flex;
   justify-items: flex-start;
   justify-content: space-around;
-  flex-wrap: wrap;
   flex-grow: 1;
   padding: 10px 0;
   margin-top: 24px;
@@ -922,10 +921,6 @@ textarea::placeholder {
 
   .snapshot1 {
     display: none;
-  }
-
-  .project-snapshot1 {
-    width: 100%;
   }
 
   .snapshot2 {
