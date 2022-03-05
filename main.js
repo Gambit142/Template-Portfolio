@@ -1,78 +1,61 @@
 // // Create object to store data needed for the this branch feature
 const projects = [
   {
-    name: 'HTML-CSS CAPSTONE',
+    name: 'Book-A-Book',
     number: 1,
-    description: ` 
-    The project seeks to test my knowledge of Html5, Css3, and Javascript. 
-    In the project, I created two pages for a soccer tournament, a mobile menu for the mobile version, 
-    and dynamically displayed the main players of the tournament using javascript.`,
-    description2: `This capstone project was assigned to me as a Microverse student. 
-    The project seeks to test my knowledge of Html5, Css3, and Javascript. 
-    In the project, I created two pages for a soccer tournament, a mobile menu for the mobile version, 
-    and dynamically displayed the main players of the tournament using javascript.`,
-    technologies: ['css', 'html', 'bootstrap', 'JS'],
+    description: `The application enables users to rent a book. 
+    The rentals are accomplished when a user makes reservations for a specific book. 
+    reservation requires the user to pick a date in the future for renting that particular book 
+    as well as indicating the city they live.
+    `,
+    technologies: ['ROR', 'ReactJS', 'Redux', 'JS'],
     image: {
-      imageUrl: './Images/HTML-CAPSTONE.png',
-      imageUrl2: './Images/HTML-CAPSTONE.png',
-      imageAltText: 'HTML-CSS Capstone Project',
+      imageUrl: './Images/book-a-book.png',
+      imageAltText: 'Book-A-Book Screenshot',
     },
-    links: ['https://gambit142.github.io/Html-Css-javaScript-Capstone/', 'https://github.com/Gambit142/Html-Css-javaScript-Capstone'],
+    links: ['https://book-a-book-frontend.herokuapp.com/', 'https://github.com/MrBrN197/book-a-book-frontend'],
   },
   {
-    name: 'Todo-List',
+    name: 'Budget App',
     number: 2,
-    description: `The to-do list project is an web interface that allows users to successfully organize their day 
-    by inputting prioritized tasks. The project also allows users to carry out the CRUD operations for 
-    add, edit and delete. Two special features of the app are that it saves tasks in the local storage 
-    of the user's browser, and it allows users to prioritize their tasks by dragging up and down the list section.`,
-    description2: `The to-do list project is an app that allows users to successfully organize their day 
-    by inputting prioritized tasks. The project also allows users to carry out the CRUD operations for 
-    add, edit and delete. Two special features of the web interface are that it saves tasks in the local storage 
-    of the user's browser, and it allows users to prioritize their tasks by dragging up and down the list section.`,
-    technologies: ['css', 'html', 'bootstrap', 'JS'],
+    description: `The Budget App is a mobile web application where you can manage your budget. 
+    In the app, you have a list of transactions associated with a category/categories, 
+    so that you can see how much money you spent and on what.`,
+    technologies: ['ROR', 'Ruby', 'CanCanCan', 'Devise'],
     image: {
-      imageUrl: './Images/To-Do-List-Project.png',
-      imageUrl2: './Images/To-Do-List-Project.png',
-      imageAltText: 'To-do List project',
+      imageUrl: './Images/budget-app.png',
+      imageAltText: 'Budget App Screenshot',
     },
-    links: [' https://gambit142.github.io/To-Do-List-Project/', 'https://github.com/Gambit142/To-Do-List-Project'],
+    links: ['https://gambit142-budget-app.herokuapp.com', 'https://github.com/Gambit142/Budget-App'],
+  },
+  {
+    name: 'AirPollution-Report-Centre',
+    number: 3,
+    description: `This project is a mobile web application that checks a list of air pollutant metrics 
+    (numeric values) in Africa. 
+    The data used for this project was gotten from https://openweathermap.org/api/air-pollution`,
+    technologies: ['ReactJS', 'Redux', 'Webpack', 'Babel'],
+    image: {
+      imageUrl: './Images/air-pollution-centre.png',
+      imageAltText: 'Air Pollution Centre Screenshot',
+    },
+    links: ['https://air-pollution-centre.herokuapp.com/', 'https://github.com/Gambit142/AirPollution-Report-Centre/'],
   },
   {
     name: 'Seafood Restaurant',
-    number: 3,
+    number: 4,
     description: `This is a Seafood Restaurant's website that showcases different seafood meals to users,
            users can like the meals, book their reservations and add comments to each meal. 
            Meals are fetched from themealdb API and comments and reservations are fetched from an Involvement API`,
     description2: `This is a Seafood Restaurant's website that showcases different seafood meals to users,
     users can like the meals, book their reservations and add comments to each meal. 
     Meals are fetched from themealdb API and comments and reservations are fetched from an Involvement API`,
-    technologies: ['javascript', 'css', 'html', 'webpack'],
+    technologies: ['Javascript', 'CSS', 'HTML', 'Webpack'],
     image: {
       imageUrl: './Images/Seafood-Restaurant.png',
-      imageUrl2: './Images/Seafood-Restaurant.png',
       imageAltText: 'project 3 placeholder image',
     },
     links: ['https://ahmed-al-farouq.github.io/Seafood-Restaurant/', 'https://github.com/ahmed-al-farouq/Seafood-Restaurant'],
-  },
-  {
-    name: 'Math Magicians',
-    number: 4,
-    description: `This is a Single Page App (SPA) that allows lovers of Mathematics make simple calculations.
-          The app has thre pages; 'The Home', 'Calculator' and 'Quotes' pages. 
-          On the calculator page, the user can perform addition, subtraction, division and multiplication of numbers.
-          The quotes pages displays random mathematical quotes by great historians.`,
-    description2: `This is a Single Page App (SPA) that allows lovers of Mathematics make simple calculations.
-    The app has thre pages; 'The Home', 'Calculator' and 'Quotes' pages. 
-    On the calculator page, the user can perform addition, subtraction, division and multiplication of numbers.
-    The quotes pages displays random mathematical quotes by great historians.`,
-    technologies: ['reactjs', 'css', 'webpack', 'babel'],
-    image: {
-      imageUrl: './Images/Math-Magicians.png',
-      imageUrl2: './Images/Math-Magicians.png',
-      imageAltText: 'project 4 placeholder image',
-    },
-    links: ['https://gambit142.github.io/Math-Magicians/', 'https://github.com/Gambit142/Math-Magicians'],
   },
 ];
 
@@ -119,10 +102,10 @@ function createModal(project) {
         </div>
         <div class="image-placeholder display-flex">
           <img class="snapshot1" src="${project.image.imageUrl}" alt="${project.image.imageAltText}">
-          <img class="snapshot2" src= "${project.image.imageUrl2}" alt="${project.image.imageAltText}">
+          <img class="snapshot2" src= "${project.image.imageUrl}" alt="${project.image.imageAltText}">
         </div>
         <div class="card-description display-flex">
-          <p class="card-text style">${project.description2}</p>
+          <p class="card-text style">${project.description}</p>
         </div>
         <div class="card-badges display-flex">
           <h4 class="badge html">${project.technologies[0]}</h4>
